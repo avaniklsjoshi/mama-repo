@@ -8,6 +8,7 @@
   .feature-cards-conatainer {
     padding: 24px;
     display: flex;
+    flex-flow:row wrap;
     justify-content: space-around;
     .feature-card {
       margin: 48px;
