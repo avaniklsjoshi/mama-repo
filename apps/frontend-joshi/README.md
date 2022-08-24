@@ -1,8 +1,8 @@
 ### About this App
 
-- :zap: This App will have my Portfolio and some cool stuff.
+<h2>:zap: This App will have my Portfolio and some cool stuff.</h2>
 
-## Status: 🌶️ In Progress
+Status: 🌶️ In Progress
 
 ---
 
@@ -22,12 +22,8 @@
 - tracking
 - SEO
 - web security
-- Pipeline, Docker, different environments stage prod qa
 - Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser
 - Optimisation, lighthouse chrome
-- respective backend- AWS, Dyanamo DB, lambda, s3, express local
-- npm package
-- monorepo
 - WebAssembly, Svelte
 
 <h2>Already implemented features :tada: </h2>

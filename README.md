@@ -95,7 +95,16 @@ Remove node_modules from each part of app
 - -find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
 - yarn
 
-  ***
+---
+
+<h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
+
+- Pipeline, Docker, different environments stage prod qa
+- Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser
+- Optimisation, lighthouse chrome
+- npm package
+
+---
 
 <div align="center">
   Feel free to ask any questions, open a PR if you feel something can be done differently!
