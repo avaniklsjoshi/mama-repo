@@ -1,6 +1,6 @@
 ### About this App
 
-<h2>:zap: This App will have my Portfolio and some cool stuff.</h2>
+<h4>:zap: This App will have my Portfolio and some cool stuff.</h4>
 
 Status: 🌶️ In Progress
 
