@@ -87,13 +87,14 @@ having following Apps-
 - 🍨 Frontend App for designing Fullstack App MongoFlix to show movies from DBs
 - 🍨 Backend App for designing Fullstack App MongoFlix to show movies from DBs
 - 🌶️ Web App for experimenting new stuff
+- 🌶️ `ui` folder, contains all the common shareable code for other apps
 
 <h2>Setup and Maintain App</h2>
 
 Remove node_modules from each part of app
 
-- -find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
-- yarn
+- `-find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +`
+- `yarn`
 
 ---
 
