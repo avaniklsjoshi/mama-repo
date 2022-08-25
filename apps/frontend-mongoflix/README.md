@@ -1,4 +1,4 @@
-### <h1 align="center"> :zap: Mongoflix: This is React application to show Movies</h1>
+### <h1 align="center"> :zap: Mongoflix: This is a React application to show Movies</h1>
 
 Status: 🌶️ In Progress
 
@@ -30,3 +30,10 @@ npm install
 ```sh
 npm start
 ```
+
+---
+
+<div align="center">
+  Feel free to ask any questions, open a PR if you feel something can be done differently!
+  <h4 align="center">🌟Star this repository🌟</h4>
+</div>
