@@ -19,3 +19,6 @@ light house https://codepen.io/alvarotrigo/pen/VwzEPZM
 bubble float https://codepen.io/alphardex/pen/jOWMGON
 
 page title https://codepen.io/giana/embed/qmKNeE?default-tab=result&theme-id=0
+profile card https://codepen.io/petegarvin1/pen/YzWBbRx
+
+https://freefrontend.com/css-timelines/

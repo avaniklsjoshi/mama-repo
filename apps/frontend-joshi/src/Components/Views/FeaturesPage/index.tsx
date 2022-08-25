@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./feature.scss";
+import { Outlet } from "react-router-dom";
 import Cards from "./cards";
 
 export default function FeaturesPage() {
@@ -14,6 +15,9 @@ export default function FeaturesPage() {
     <div className="feature-container">
       <div className="feature-title">{t("featuresRoute")}</div>
       <Cards />
+      <div className="content">
+        <Outlet />
+      </div>
     </div>
   );
 }

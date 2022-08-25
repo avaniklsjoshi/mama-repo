@@ -45,6 +45,9 @@ export const DEFAULT_LANGUAGE = LANGUAGE_NAMES_KEY.ENGLISH;
 export enum ROUTES {
   HOME = "/",
   FEATURES = "/features",
+  REACT_AND_JS_FEATURES = "/features/reactAndJSLearnings",
+  UI_FEATURES = "/features/uiLearnings",
+  MISCELLANEOUS_FEATURES = "/features/miscellaneousCoolStuff",
   NOT_FOUND = "*"
 }
 export enum ROUTES_NAME_KEY {
@@ -85,57 +88,26 @@ export const PORTFOLIO_URLS = [
 
 export const CARDS_LIST = [
   {
-    path: "LINK TO MICROFRONTEND",
-    title: "Things to notice in App",
-    description: "Things to notice in app in various parts",
+    path: "miscellaneousCoolStuff",
+    title: "Cool Stuff",
+    description: "Cool Things to notice in app",
     thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-    information: "This will be a microfrontend for Things to notice in app."
+    information: "Cool Stuff.."
   },
   {
-    path: "LINK TO MICROFRONTEND",
-    title: "Angular Air Quality App",
-    description: "Mean App to see Air Quality",
+    path: "uiLearnings",
+    title: "UI Designs",
+    description: "examples for cool css tricks",
     thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
     information:
-      "This will be a microfrontend for Air Quality App. Which is a FullStack App."
+      "this will be a microfrontend for all the UI related cool stuff."
+  },
+  {
+    path: "reactAndJSLearnings",
+    title: "React and JS Techniques",
+    description: "examples for cool JS tricks",
+    thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
+    information:
+      "this will be a microfrontend for all the React and Js related cool stuff."
   }
-  // {
-  //   path: "LINK TO MICROFRONTEND",
-  //   title: "UI Designs",
-  //   description: "examples for cool css tricks",
-  //   thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-  //   information:
-  //     "this will be a microfrontend for all the UI related cool stuff."
-  // },
-  // {
-  //   path: "LINK TO MICROFRONTEND",
-  //   title: "JS Techniques",
-  //   description: "examples for cool JS tricks",
-  //   thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-  //   information:
-  //     "this will be a microfrontend for all the Js related cool stuff."
-  // },
-  // {
-  //   path: "LINK TO MICROFRONTEND",
-  //   title: "React Learnings",
-  //   description: "examples for cool React tricks",
-  //   thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-  //   information:
-  //     "this will be a microfrontend for all the React related cool stuff."
-  // },
-  // {
-  //   path: "LINK TO MICROFRONTEND",
-  //   title: "ROUTING Patterns",
-  //   description: "examples for necessary routing techniques",
-  //   thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-  //   information:
-  //     "this will be a microfrontend for all the routing related cool stuff."
-  // },
-  // {
-  //   path: "LINK TO MICROFRONTEND",
-  //   title: "Random Stuff",
-  //   description: "examples which are hard to find suitable tab",
-  //   thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-  //   information: "this will be a microfrontend for all the ramdom  cool stuff."
-  // }
 ];

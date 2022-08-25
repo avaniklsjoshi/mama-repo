@@ -10,10 +10,13 @@ import {
   Tooltip,
   Typography
 } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import { InfoIcon } from "../../../Assets/SVG/infoIcon";
 import { CARDS_LIST } from "../../../Configs/Constants/const";
 
 export default function Cards() {
+  const navigate = useNavigate();
+
   const handleLike = (e: any) => {
     e.stopPropagation();
     console.log("like clicked");
@@ -26,14 +29,20 @@ export default function Cards() {
     e.stopPropagation();
     console.log("info clicked");
   };
-  const handleCard = () => {
-    console.log("card clicked");
+  const handleCard = (e: any, path: string) => {
+    navigate(path);
+    console.log("card clicked", e.target.id);
   };
+
   return (
     <div className="feature-cards-conatainer">
-      {CARDS_LIST.map((card, index) => (
-        <div className="feature-card" key={index}>
-          <Card sx={{ width: 400 }} onClick={handleCard}>
+      {CARDS_LIST.map((card) => (
+        <div className="feature-card" key={card.path}>
+          <Card
+            sx={{ width: 400 }}
+            onClick={(e) => handleCard(e, card.path)}
+            id={card.path}
+          >
             <CardHeader
               title={card.title}
               action={
