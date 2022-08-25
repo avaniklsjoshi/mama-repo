@@ -1,6 +1,4 @@
-### About this App
-
-<h4>:zap: This App will have my Portfolio and some cool stuff.</h4>
+### <h1 align="center">:zap: This App will have my Portfolio and some cool stuff. </h1>
 
 Status: 🌶️ In Progress
 
@@ -47,3 +45,10 @@ Status: 🌶️ In Progress
 - web title logo, glowing title, not found design
 - download resume button
 - cards for microfrontend initial stage
+
+---
+
+<div align="center">
+  Feel free to ask any questions, open a PR if you feel something can be done differently!
+  <h4 align="center">🌟Star this repository🌟</h4>
+</div>
