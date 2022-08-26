@@ -10,5 +10,14 @@
   "docTitleNameFeatures": "Avani Joshi | Frontend Developer | Features",
   "docTitleNameNotFound": "Avani Joshi | Frontend Developer | Page Not Found",
   "home": "Home",
-  "downloadPortfolio": "Download Portfolio"
+  "downloadPortfolio": "Download Portfolio",
+  "cardMiscellaneousTitle":"Cool Stuff",
+  "cardMiscellaneousDescription":"Cool Things to notice in the App",
+  "cardMiscellaneousInformation":"Expect all the unexpected.. 😉",
+  "cardUITitle":"UI Designs",
+  "cardUIDescription":"Examples for cool UI tricks",
+  "cardUIInformation":"Expect all the unexpexted UI related stuff.. 😉",
+  "cardReactAndJSTitle":"React and JS Techniques",
+  "cardReactAndJSDescription":"Examples for cool React and JS tricks",
+  "cardReactAndJSInformation":"Expect all the unexpexted React and JS related stuff.. 😉"
 }

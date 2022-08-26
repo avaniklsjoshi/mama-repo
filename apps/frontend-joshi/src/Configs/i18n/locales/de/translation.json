@@ -10,5 +10,14 @@
   "docTitleNameFeatures": "Avani Joshi | Frontend Entwicklerin | Merkmale",
   "docTitleNameNotFound": "Avani Joshi | Frontend Entwicklerin | Seite nicht gefunden",
   "home": "Startseite",
-  "downloadPortfolio": "Portfolio herunterladen"
+  "downloadPortfolio": "Portfolio herunterladen",
+  "cardMiscellaneousTitle":"Cooles Zeug",
+  "cardMiscellaneousDescription":"Coole Dinge, die in der App zu beachten sind",
+  "cardMiscellaneousInformation":"Erwarten Sie all das Unerwartete.. 😉",
+  "cardUITitle":"UI-Designs",
+  "cardUIDescription":"Beispiele für coole UI-Tricks",
+  "cardUIInformation":"Erwarten Sie all die unerwarteten UI-bezogenen Dinge.. 😉",
+  "cardReactAndJSTitle":"React und JS Techniken",
+  "cardReactAndJSDescription":"Beispiele für coole React- und JS-Tricks",
+  "cardReactAndJSInformation":"Erwarten Sie all die unerwarteten React- und JS-bezogenen Dinge.. 😉"
 }

@@ -10,12 +10,14 @@ import {
   Tooltip,
   Typography
 } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { InfoIcon } from "../../../Assets/SVG/infoIcon";
 import { CARDS_LIST } from "../../../Configs/Constants/const";
 
 export default function Cards() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleLike = (e: any) => {
     e.stopPropagation();
@@ -44,9 +46,9 @@ export default function Cards() {
             id={card.path}
           >
             <CardHeader
-              title={card.title}
+              title={t(card.title)}
               action={
-                <Tooltip title={card.information} onClick={handleInfo}>
+                <Tooltip title={t(card.information)} onClick={handleInfo}>
                   <IconButton>
                     <InfoIcon />
                   </IconButton>
@@ -57,11 +59,11 @@ export default function Cards() {
               component="img"
               height="346"
               image={card.thumbnail}
-              alt={card.description}
+              alt={t(card.description)}
             />
             <CardContent>
               <Typography variant="body2" color="text.secondary">
-                {card.description}
+                {t(card.description)}
               </Typography>
             </CardContent>
             <div className="like-share-container">

@@ -89,25 +89,23 @@ export const PORTFOLIO_URLS = [
 export const CARDS_LIST = [
   {
     path: "miscellaneousCoolStuff",
-    title: "Cool Stuff",
-    description: "Cool Things to notice in app",
-    thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-    information: "Cool Stuff.."
+    title: "cardMiscellaneousTitle",
+    description: "cardMiscellaneousDescription",
+    thumbnail: "../../Assets/Images/launch.png",
+    information: "cardMiscellaneousInformation"
   },
   {
     path: "uiLearnings",
-    title: "UI Designs",
-    description: "examples for cool css tricks",
-    thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-    information:
-      "this will be a microfrontend for all the UI related cool stuff."
+    title: "cardUITitle",
+    description: "cardUIDescription",
+    thumbnail: "../../Assets/Images/design.png",
+    information: "cardUIInformation"
   },
   {
     path: "reactAndJSLearnings",
-    title: "React and JS Techniques",
-    description: "examples for cool JS tricks",
-    thumbnail: "https://media.giphy.com/media/6RrGJniqA0zD07caO1/giphy.gif",
-    information:
-      "this will be a microfrontend for all the React and Js related cool stuff."
+    title: "cardReactAndJSTitle",
+    description: "cardReactAndJSDescription",
+    thumbnail: "../../Assets/Images/code.png",
+    information: "cardReactAndJSInformation"
   }
 ];
