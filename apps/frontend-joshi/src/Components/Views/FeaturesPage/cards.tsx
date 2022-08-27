@@ -41,18 +41,18 @@ export default function Cards() {
       {CARDS_LIST.map((card) => (
         <div className="feature-card" key={card.path}>
           <Card
-            className="feature-mui-card"
+            className="feature-card"
             sx={{ width: 400 }}
             onClick={(e) => handleCard(e, card.path)}
             id={card.path}
           >
             <CardHeader
-              className="feature-mui-cardheader"
+              className="feature-cardheader"
               title={t(card.title)}
               action={
                 <Tooltip title={t(card.information)} onClick={handleInfo}>
                   <IconButton>
-                    <InfoIcon className="feature-mui-iicon" />
+                    <InfoIcon className="feature-iicon" />
                   </IconButton>
                 </Tooltip>
               }
