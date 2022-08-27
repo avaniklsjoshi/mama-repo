@@ -41,27 +41,31 @@ export default function Cards() {
       {CARDS_LIST.map((card) => (
         <div className="feature-card" key={card.path}>
           <Card
+            className="feature-mui-card"
             sx={{ width: 400 }}
             onClick={(e) => handleCard(e, card.path)}
             id={card.path}
           >
             <CardHeader
+              className="feature-mui-cardheader"
               title={t(card.title)}
               action={
                 <Tooltip title={t(card.information)} onClick={handleInfo}>
                   <IconButton>
-                    <InfoIcon />
+                    <InfoIcon className="feature-mui-iicon" />
                   </IconButton>
                 </Tooltip>
               }
             />
-            <CardMedia
-              component="img"
-              height="346"
-              image={card.thumbnail}
-              alt={t(card.description)}
-            />
-            <CardContent>
+            <div className="card-image">
+              <CardMedia
+                component="img"
+                height="346"
+                image={card.thumbnail}
+                alt={t(card.description)}
+              />
+            </div>
+            <CardContent className="card-desc">
               <Typography variant="body2" color="text.secondary">
                 {t(card.description)}
               </Typography>

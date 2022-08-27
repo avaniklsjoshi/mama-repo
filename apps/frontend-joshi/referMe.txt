@@ -20,5 +20,6 @@ bubble float https://codepen.io/alphardex/pen/jOWMGON
 
 page title https://codepen.io/giana/embed/qmKNeE?default-tab=result&theme-id=0
 profile card https://codepen.io/petegarvin1/pen/YzWBbRx
+cards - https://codepen.io/pieter-biesemans/pen/QWKmXEE
 
 https://freefrontend.com/css-timelines/

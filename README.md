@@ -82,7 +82,7 @@ I am a Frontend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTG
 This is a monorepo powered with turborepo.
 having following Apps-
 
-- 🌶️ Frontend App for my portfolio
+- 🌶️⭐ Frontend App for my portfolio
 - 🌶️ Backend App for my portfolio
 - 🍨 Frontend App for designing Fullstack App MongoFlix to show movies from DBs
 - 🍨 Backend App for designing Fullstack App MongoFlix to show movies from DBs

@@ -7,7 +7,8 @@ export const HeaderContainer: any = styled.div`
   backdrop-filter: saturate(50%) blur(8px);
   margin-bottom: 30px;
   position: fixed;
-    top: 0;
-    width: 100%;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 `;

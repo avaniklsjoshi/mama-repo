@@ -6,7 +6,7 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- adjust cards
+- adjust cards, back button
 - design home page- about me, timeline, language and tools, future goals
 - adjust theme
 - api fail UI, centralized loader
