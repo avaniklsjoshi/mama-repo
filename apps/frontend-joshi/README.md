@@ -6,14 +6,13 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- adjust cards, back button
 - design home page- about me, timeline, language and tools, future goals
 - adjust theme
+- tell me a joke section, Meme Generator\*
 - api fail UI, centralized loader
 - scroll loader at top
-- write tests, storybook
+- write tests, storybook, launch app may be with docker..
 - Things to notice in the App
-- tell me a joke section, Meme Generator\*
 - Real-Time Chat, Music Player\*
 - Personal Blog\*
 - Photo Gallery App with Search Option(might use some AI APIs)\*
@@ -51,6 +50,7 @@ Status: 🌶️ In Progress
 - download resume button
 - cards for microfrontend initial stage
 - Implementing routes and child routes properly
+- adjust cards, back button
 
 ---
 
