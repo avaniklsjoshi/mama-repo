@@ -2,7 +2,6 @@ import "./app.scss";
 import { useEffect, useReducer } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { Link } from "ui";
 import MiscellaneousCoolStuff from "../Components/Featurings/MiscellaneousCoolStuff/miscellaneousCoolStuff";
 import ReactAndJSLearnings from "../Components/Featurings/ReactAndJSLearnings/reactAndJSLearnings";
 import UILearnings from "../Components/Featurings/UILearnings/uiLearnings";
@@ -40,9 +39,6 @@ function App() {
           <BrowserRouter>
             <div className="App">
               <Header />
-              <Link className="App-link" href="https://reactjs.org">
-                Learn React2
-              </Link>
               <div className="content-section">
                 <Routes>
                   <Route path={ROUTES.HOME} element={<LandingPage />} />

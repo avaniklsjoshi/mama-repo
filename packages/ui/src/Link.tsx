@@ -2,7 +2,7 @@ import * as React from "react";
 
 interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 	children: React.ReactNode;
-	href: string;
+	href?: string;
 }
 
 export const Link = (props: LinkProps) => {
@@ -13,7 +13,7 @@ export const Link = (props: LinkProps) => {
 	}
 
 	return (
-		<a href={href} {...rest} style={{ color: "red" }}>
+		<a href={href} {...rest}>
 			{children}
 		</a>
 	);

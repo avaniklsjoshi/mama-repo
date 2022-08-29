@@ -1,3 +1,10 @@
+import BackLink from "../../Common/backLink";
+
 export default function MiscellaneousCoolStuff() {
-  return <div>miscellaneous Cool Stuff</div>;
+  return (
+    <>
+      <BackLink />
+      miscellaneous Cool Stuff
+    </>
+  );
 }

@@ -15,5 +15,6 @@ export default {
   section: {
     background: "#D9F7E7",
     text: "#B0A8B9"
-  }
+  },
+  link: { text: "#FFD080" }
 };

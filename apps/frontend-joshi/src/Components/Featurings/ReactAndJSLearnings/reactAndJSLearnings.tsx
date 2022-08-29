@@ -1,3 +1,10 @@
+import BackLink from "../../Common/backLink";
+
 export default function ReactAndJSLearnings() {
-  return <div>LEarn react</div>;
+  return (
+    <>
+      <BackLink />
+      LEarn react
+    </>
+  );
 }

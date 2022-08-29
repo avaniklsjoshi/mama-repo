@@ -19,5 +19,8 @@ declare module "styled-components" {
       background: string;
       text: string;
     };
+    link: {
+      text: string;
+    };
   }
 }

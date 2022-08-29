@@ -93,7 +93,7 @@ having following Apps-
 
 Remove node_modules from each part of app
 
-- `-find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +`
+- `find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +`
 - `yarn`
 
 ---
