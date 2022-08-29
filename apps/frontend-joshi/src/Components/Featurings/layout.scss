@@ -1,0 +1,25 @@
+.sub-route-content{
+    display: flex;
+    flex-direction: column;
+    .sub-route-container{
+        display: grid;
+        flex: 1;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px;
+
+        .left-bar{
+            grid-column: span 4;
+            justify-self: flex-start;
+            padding: 8px;
+            grid-column-start: 1;
+            grid-column-end: span 4;
+        }
+        .right-bar{
+            grid-column: span 8;
+            justify-self: flex-start;
+            padding: 8px;
+            border-left: 1px solid gray;
+
+        }
+    }
+}
