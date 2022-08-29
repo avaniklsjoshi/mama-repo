@@ -41,7 +41,7 @@ export default function Cards() {
       {CARDS_LIST.map((card) => (
         <div className="feature-card" key={card.path}>
           <Card
-            className="feature-card"
+            className="feature-card-mui"
             sx={{ width: 400 }}
             onClick={(e) => handleCard(e, card.path)}
             id={card.path}

@@ -1,7 +1,3 @@
 export default function ReactAndJSLearnings() {
-  return (
-    <div className="header-title" aria-hidden="true">
-      LEarn react
-    </div>
-  );
+  return <div>LEarn react</div>;
 }
