@@ -13,12 +13,12 @@ export default function LandingPage() {
     document.title = t("docTitleNameHome");
   });
   return (
-    <div>
+    <>
       <Introduction />
       <Timeline />
       <Skills />
       <Goals />
       <PortfolioCard />
-    </div>
+    </>
   );
 }

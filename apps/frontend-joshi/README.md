@@ -6,8 +6,8 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- design home page- about me, timeline, language and tools, future goals
-- adjust theme
+- design home page- about me, timeline, language and tools, future goals, fix media queries
+- adjust theme, media queries,
 - tell me a joke section, Meme Generator\*
 - api fail UI, centralized loader
 - scroll loader at top
