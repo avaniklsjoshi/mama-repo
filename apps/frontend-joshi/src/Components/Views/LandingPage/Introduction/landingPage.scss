@@ -1,0 +1,30 @@
+@import "../../../../CommonStyles/variables.scss";
+@import "../../../../CommonStyles/placeholders.scss";
+
+
+.intro-container{
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  .intro-left{
+    grid-column: span 6;
+    justify-self: flex-start;
+    grid-column-start: 1;
+    grid-column-end: span 6;
+    .intro-title{
+      font-size: $appTitleFontSize;
+
+    }
+    .intro-desc{
+      font-size: $appFontSizeXExtraLarge;
+      margin-top: 32px;
+    }
+  }
+  .intro-right{
+    grid-column: span 6;
+    justify-self: flex-start;
+    justify-self: center;
+  }
+}
