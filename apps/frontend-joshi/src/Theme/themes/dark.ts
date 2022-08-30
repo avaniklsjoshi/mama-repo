@@ -1,7 +1,7 @@
 export default {
   themeType: "dark",
   colors: {
-    background: "#4B4453",
+    background: "#000",
     text: "#fff"
   },
   header: {

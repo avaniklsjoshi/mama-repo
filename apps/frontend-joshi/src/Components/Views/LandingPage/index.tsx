@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Goals from "./goals";
-import Introduction from "./introduction";
+import Introduction from "./Introduction/introduction";
 import PortfolioCard from "./portfolioCard";
 import Skills from "./skills";
 import Timeline from "./timeline";
