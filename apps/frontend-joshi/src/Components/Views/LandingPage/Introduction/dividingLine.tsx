@@ -1,4 +1,4 @@
-import "./Introduction/subMarine.scss";
+import "./subMarine.scss";
 
 export default function SubMarine() {
   return (
@@ -10,6 +10,7 @@ export default function SubMarine() {
       y="0px"
       viewBox="0 0 1999.007 560"
       xmlSpace="preserve"
+      className="lines-animating"
     >
       <path
         className="line1"
