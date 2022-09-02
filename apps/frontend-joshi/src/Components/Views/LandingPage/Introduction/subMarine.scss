@@ -1,3 +1,4 @@
+@import "../../../../CommonStyles/variables.scss";
 
 $color1: #306D85;
 $color2: #D93A54;
@@ -123,7 +124,7 @@ $color2: #D93A54;
                width: 30px;
                height: 30px;
                position: absolute;
-               margin-top: 32px;
+               margin-top: $spacing8d;
                left: 53px;
                background-color: darken($color2, 10%);
                border-radius: 50%;
@@ -203,7 +204,7 @@ $color2: #D93A54;
                 height: 20px;
                 background-color: $color2;
                 margin-top: -27px;
-                margin-left:32px;
+                margin-left:$spacing8d;
                 border-radius:5px 5px 0 0;
 
                 &:after, &:before {

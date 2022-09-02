@@ -1,0 +1,14 @@
+@import "../../../CommonStyles/variables.scss";
+
+
+.goals-container{
+    font-size: $appFontSize1XLarge;
+    margin: $spacing4d;
+    h2{
+        margin: $spacing4d;
+    }
+    ul{
+        list-style-type: none;
+
+    }
+}

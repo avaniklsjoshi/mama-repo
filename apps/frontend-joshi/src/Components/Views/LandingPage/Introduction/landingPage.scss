@@ -3,7 +3,7 @@
 
 
 .intro-container{
-  padding: 16px;
+  padding: $spacing4d;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 10px;
@@ -18,8 +18,8 @@
 
     }
     .intro-desc{
-      font-size: $appFontSizeXExtraLarge;
-      margin-top: 32px;
+      font-size: $appFontSize2XLarge;
+      margin-top: $spacing8d;
     }
   }
   .intro-right{
