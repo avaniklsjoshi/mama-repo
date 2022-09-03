@@ -37,14 +37,3 @@ cards - https://codepen.io/pieter-biesemans/pen/QWKmXEE
 
 https://freefrontend.com/css-timelines/ .  https://codepen.io/hunzaboy/pen/qBWRBXw
 https://devbeep.com/css-background-effects/
-
-rgba(118, 201, 0, 0.6) .  lime green
-background-color: rgba(254, 254, 254, 0.3) .  white
-box-shadow: 0 0.1em 0.6em rgb(0 0 0 / 30%), 0.6em -0.5em 3em rgb(0 0 0 / 30%), 1em -1em 8em #fefefe;
-box-shadow: 0em 0em 2em #76c900;
-
-background-color: rgba(87, 202, 244, 0.6); cyan
-0em 0em 2em #57caf4;
-
-background-color: rgba(236, 0, 140, 0.6);
-box-shadow: 0em 0em 2em rgb(236 0

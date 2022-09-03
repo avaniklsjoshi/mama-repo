@@ -5,6 +5,8 @@
   src: url("../Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
 }
 
+
+//font variables ----
 $appFont: "Ubuntu-Regular", sans-serif;
 $appTitleFontSize: 64px;
 $appSubTitleFontSize: 32px;
@@ -15,12 +17,16 @@ $appFontSizeMedium: 14px;
 $appFontSizeSmall: 12px;
 $appFontSizeExtraSmall: 8px;
 
-//TODO:
-// 767
-// 768-959
-// 960-1200
-// 1200-1440
+//media query variables ----
+$mediaMobile767: 767px;
+$mediaSTabLowerBound768: 768px;
+$mediaLSTabLowerBound959: 959px;
+$mediaLTabUpperBound960: 960px;
+$mediaLTabUpperBound1199: 1199px;
+$mediaLaptop1200: 1200px;
 
+
+//Spacing variables ----
 $spacing1d:4px;
 $spacing2d:8px;
 $spacing3d:12px;
@@ -29,3 +35,15 @@ $spacing5d:20px;
 $spacing6d:24px;
 $spacing7d:28px;
 $spacing8d:32px;
+
+//glow special css variables ----
+// rgba(118, 201, 0, 0.6) .  lime green
+// background-color: rgba(254, 254, 254, 0.3) .  white
+// box-shadow: 0 0.1em 0.6em rgb(0 0 0 / 30%), 0.6em -0.5em 3em rgb(0 0 0 / 30%), 1em -1em 8em #fefefe;
+// box-shadow: 0em 0em 2em #76c900;
+
+// background-color: rgba(87, 202, 244, 0.6); cyan
+// 0em 0em 2em #57caf4;
+
+// background-color: rgba(236, 0, 140, 0.6);
+// box-shadow: 0em 0em 2em rgb(236 0
