@@ -6,7 +6,7 @@ export default function Skills() {
       <h1>Skills</h1>
       <div className="container">
         <div className="col">
-          <h4 className="titulo">Programación</h4>
+          <h4 className="titulo">Tech Stack</h4>
           <ul className="skill">
             <li>
               <span className="blueline html"></span>
@@ -31,7 +31,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h4 className="plataformas titulo">Plataformas</h4>
+          <h4 className="plataformas titulo">Supporting</h4>
           <ul className="skill">
             <li>
               <span className="greenline wordpress"></span>
@@ -56,7 +56,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h4 className="programas titulo">Programas</h4>
+          <h4 className="programas titulo">Tools</h4>
           <ul className="skill">
             <li>
               <span className="redline dreamweaver"></span>
