@@ -113,35 +113,35 @@ export const CARDS_LIST = [
 export const EXPERIENCE_TIMELINE = [
   {
     title: "Etecture Gmbh, Software Developer",
-    span: "12-09-2019 to Untill",
+    span: "12-09-2019 - Untill",
     role: "Designing Architecture, Basic Setting up of Apps, Implementation",
     projects: "VW AutoSuche, VW Onehub, ING db GeldAutomat",
     description:
       "– React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Volkswagen’s components, node js, Webpack, TSLint, Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine. Making proposals and implementation.",
-    thumbnail: "../../Assets/Images/code.png"
+    thumbnail: "../../../assets/Images/sauropod-svgrepo-com.svg"
   },
   {
-    title: "cardReactAndJSTitle",
+    title: "cardReactAndJSitle",
     span: "",
     role: "",
     projects: "",
     description: "cardReactAndJSDescription",
-    thumbnail: "../../Assets/Images/code.png"
+    thumbnail: "../../../Assets/Images/flower-svgrepo-com.svg"
   },
   {
-    title: "cardReactAndJSTitle",
+    title: "cardReacAndJSTitle",
     span: "",
     role: "",
     projects: "",
     description: "cardReactAndJSDescription",
-    thumbnail: "../../Assets/Images/code.png"
+    thumbnail: "../../Assets/Images/dinosaur-svgrepo-com.svg"
   },
   {
-    title: "cardReactAndJSTitle",
+    title: "cardReactAnJSTitle",
     span: "",
     role: "",
     projects: "",
     description: "cardReactAndJSDescription",
-    thumbnail: "../../Assets/Images/code.png"
+    thumbnail: "../../Assets/Images/flower-green.svg"
   }
 ];

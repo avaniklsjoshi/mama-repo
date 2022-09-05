@@ -1,4 +1,3 @@
-$content-width: calc(40vw - 84px);
 $margin: 20px;
 $spacing: 20px;
 $bdrs: 6px;
@@ -7,7 +6,7 @@ $icon-size: 32px;
 $bdrs-icon: 100%;
 
 $color1: #9251ac;
-$color2: #f6a4ec;
+$color2: #fac5f4;
 
 $color3: #87bbfe;
 $color4: #555ac0;
@@ -22,6 +21,7 @@ $color6: #aff1b6;
   margin: $margin auto;
   position: relative;
   color: #525f7f;
+  margin: 0 50px;
 
   &__event {
     margin-bottom: $spacing;
@@ -30,7 +30,7 @@ $color6: #aff1b6;
     margin: $spacing 0;
     border-radius: $bdrs;
     align-self: center;
-    width: 50vw;
+    width: 100%;
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
@@ -86,8 +86,9 @@ $color6: #aff1b6;
         0 18px 36px -18px rgba(0, 0, 0, 0.3),
         0 -12px 36px -8px rgba(0, 0, 0, 0.025);
       background: #fff;
-      width: $content-width;
       border-radius: 0 $bdrs $bdrs 0;
+      width: 80%;
+
     }
     &__date {
       color: $color2;
@@ -97,9 +98,9 @@ $color6: #aff1b6;
       display: flex;
       align-items: center;
       justify-content: center;
-      white-space: nowrap;
       padding: 0 $spacing;
       border-radius: $bdrs 0 0 $bdrs;
+      width: 200px;
     }
     &__icon {
       display: flex;
@@ -223,6 +224,12 @@ $color6: #aff1b6;
           content: none;
         }
       }
+    }
+  }
+  .lni-cake{
+    img{
+      height: 40px;
+      width: 40px;
     }
   }
 }

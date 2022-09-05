@@ -1,4 +1,6 @@
 import "./timeline.scss";
+import { IconButton, Tooltip } from "@mui/material";
+import { InfoIcon } from "../../../Assets/SVG/infoIcon";
 import { EXPERIENCE_TIMELINE } from "../../../Configs/Constants/const";
 
 export default function Timeline() {
@@ -6,74 +8,33 @@ export default function Timeline() {
     <div>
       <div>How it all started..</div>
       <div className="timeline">
-        <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-          <div className="timeline__event__icon ">
-            <i className="lni-cake"></i>
-          </div>
-          <div className="timeline__event__date">20-08-2019</div>
-          <div className="timeline__event__content ">
-            <div className="timeline__event__title">Birthday</div>
-            <div className="timeline__event__description">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
-              </p>
+        {EXPERIENCE_TIMELINE.map((exp) => (
+          <div
+            className="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+            key={exp.title}
+          >
+            <div className="timeline__event__icon ">
+              <i className="lni-cake">
+                <img src={exp.thumbnail} alt="jiji" />
+              </i>
+            </div>
+            <div className="timeline__event__date">{exp.span}</div>
+            <div className="timeline__event__content ">
+              <div className="timeline__event__title">
+                {exp.title}
+                <Tooltip title={exp.description}>
+                  <IconButton>
+                    <InfoIcon className="feature-iicon" />
+                  </IconButton>
+                </Tooltip>
+              </div>
+              <div className="timeline__event__description">
+                <p>Projects- {exp.projects}</p>
+                <p>Role- {exp.role}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-          <div className="timeline__event__icon">
-            <i className="lni-burger"></i>
-          </div>
-          <div className="timeline__event__date">20-08-2019</div>
-          <div className="timeline__event__content">
-            <div className="timeline__event__title">Lunch</div>
-            <div className="timeline__event__description">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-          <div className="timeline__event__icon">
-            <i className="lni-slim"></i>
-          </div>
-          <div className="timeline__event__date">20-08-2019</div>
-          <div className="timeline__event__content">
-            <div className="timeline__event__title">Exercise</div>
-            <div className="timeline__event__description">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="timeline__event animated fadeInUp timeline__event--type1">
-          <div className="timeline__event__icon">
-            <i className="lni-cake"></i>
-          </div>
-          <div className="timeline__event__date">20-08-2019</div>
-          <div className="timeline__event__content">
-            <div className="timeline__event__title">Birthday</div>
-            <div className="timeline__event__description">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-                corporis incidunt reprehenderit accusantium id aut architecto
-                harum quidem dolorem in!
-              </p>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

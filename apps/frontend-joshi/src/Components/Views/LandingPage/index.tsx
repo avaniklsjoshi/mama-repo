@@ -17,7 +17,7 @@ export default function LandingPage() {
     <>
       <Introduction />
       <DividingLine />
-      {/* <Timeline /> */}
+      <Timeline />
       <Skills />
       <Goals />
       <PortfolioCard />

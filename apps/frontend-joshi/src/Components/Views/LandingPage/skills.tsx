@@ -3,10 +3,10 @@ import "./skills.scss";
 export default function Skills() {
   return (
     <div className="skills-container">
-      <h1>Skills</h1>
+      <div className="skills-title">SKILLS</div>
       <div className="container">
         <div className="col">
-          <h4 className="titulo">Tech Stack</h4>
+          <h1 className="titulo">Tech Stack</h1>
           <ul className="skill">
             <li>
               <span className="blueline javascript"></span>
@@ -39,7 +39,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h4 className="supporting titulo">Supporting</h4>
+          <h1 className="supporting titulo">Supporting</h1>
           <ul className="skill">
             <li>
               <span className="greenline typescript"></span>
@@ -76,7 +76,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h4 className="tools titulo">Tools</h4>
+          <h1 className="tools titulo">Tools</h1>
           <ul className="skill">
             <li>
               <span className="redline vscode"></span>
