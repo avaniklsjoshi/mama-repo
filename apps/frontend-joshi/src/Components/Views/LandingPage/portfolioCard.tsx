@@ -6,7 +6,7 @@ export default function PortfolioCard() {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div className="portfolio-container">
       <div className="card card">
         <div className="border">
           <div className="card-name">{t("fullName")}</div>
