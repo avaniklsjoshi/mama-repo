@@ -5,7 +5,7 @@ import DividingLine from "./Introduction/dividingLine";
 import Introduction from "./Introduction/introduction";
 import PortfolioCard from "./portfolioCard";
 import Skills from "./skills";
-import Timeline from "./timeline";
+import Timeline from "./Timeline/timeline";
 
 export default function LandingPage() {
   const { t } = useTranslation();

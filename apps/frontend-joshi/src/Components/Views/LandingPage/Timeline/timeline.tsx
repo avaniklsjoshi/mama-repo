@@ -1,12 +1,13 @@
 import "./timeline.scss";
 import { IconButton, Tooltip } from "@mui/material";
-import { InfoIcon } from "../../../Assets/SVG/infoIcon";
-import { EXPERIENCE_TIMELINE } from "../../../Configs/Constants/const";
+import InfoButton from "./infoButton";
+import { InfoIcon } from "../../../../Assets/SVG/infoIcon";
+import { EXPERIENCE_TIMELINE } from "../../../../Configs/Constants/const";
 
 export default function Timeline() {
   return (
     <div className="timeline">
-      <div className="timeline-title">How it all started..</div>
+      <div className="timeline-title">HOW IT ALL STARTED</div>
 
       {EXPERIENCE_TIMELINE.map((exp) => (
         <div
@@ -22,7 +23,10 @@ export default function Timeline() {
           <div className="timeline__event__content ">
             <div className="timeline__event__title">
               {exp.title}
-              <Tooltip title={exp.description}>
+              <Tooltip
+                title={<InfoButton content={exp.info} />}
+                className="info-icon"
+              >
                 <IconButton>
                   <InfoIcon className="feature-iicon" />
                 </IconButton>

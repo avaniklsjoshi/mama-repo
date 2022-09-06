@@ -1,4 +1,4 @@
-@import "../../../CommonStyles/variables.scss";
+@import "../../../../CommonStyles/variables.scss";
 
 $spacing: 20px;
 $bdrs: 6px;
@@ -29,7 +29,11 @@ $color6: #aff1b6;
     margin: 30px auto;
     color: chartreuse;
   }
-
+  .info-icon{
+    padding: 0;
+    margin-left: 40px;
+    padding: 10px;
+  }
   &__event {
     margin-bottom: $spacing;
     position: relative;
@@ -37,7 +41,7 @@ $color6: #aff1b6;
     margin: $spacing 0;
     border-radius: $bdrs;
     align-self: center;
-    width: 100%;
+    width: 70%;
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
@@ -86,6 +90,9 @@ $color6: #aff1b6;
       font-weight: 600;
       color: $color1;
       letter-spacing: 1.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     &__content {
       padding: $spacing;
@@ -299,3 +306,27 @@ $color6: #aff1b6;
     left: 100%;
   }
 }
+
+//--------- Info button start ---------
+.info-container{
+  padding:10px;
+  .tech-container{
+    padding:10px;
+    font-size: $appFontSizeSmall;
+
+  }
+  .role-container{
+    padding:10px;
+    font-size: $appFontSizeSmall;
+
+  }
+  .info-title{
+    font-size: $appFontSizeMedium;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  ul{
+    padding: 10px;
+  }
+}
+//--------- Info button end ---------

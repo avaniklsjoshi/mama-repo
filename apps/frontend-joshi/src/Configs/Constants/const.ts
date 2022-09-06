@@ -116,8 +116,17 @@ export const EXPERIENCE_TIMELINE = [
     span: "12-09-2019 - Untill",
     role: "Designing Architecture, Basic Setting up of Apps, Implementation",
     projects: "VW AutoSuche, VW Onehub, ING db GeldAutomat",
-    description:
-      "– React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Volkswagen’s components, node js, Webpack, TSLint, Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine. Making proposals and implementation.",
+    info: {
+      tech: [
+        "React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Webpack, TSLint",
+        "Volkswagen’s components",
+        "node js"
+      ],
+      role: [
+        "Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine.",
+        "Making proposals and implementation."
+      ]
+    },
     thumbnail: "../../../assets/Images/sauropod-svgrepo-com.svg"
   },
   {
@@ -125,7 +134,17 @@ export const EXPERIENCE_TIMELINE = [
     span: "",
     role: "",
     projects: "",
-    description: "cardReactAndJSDescription",
+    info: {
+      tech: [
+        "React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Webpack, TSLint",
+        "Volkswagen’s components",
+        "node js"
+      ],
+      role: [
+        "Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine.",
+        "Making proposals and implementation."
+      ]
+    },
     thumbnail: "../../../Assets/Images/flower-svgrepo-com.svg"
   },
   {
@@ -133,7 +152,17 @@ export const EXPERIENCE_TIMELINE = [
     span: "",
     role: "",
     projects: "",
-    description: "cardReactAndJSDescription",
+    info: {
+      tech: [
+        "React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Webpack, TSLint",
+        "Volkswagen’s components",
+        "node js"
+      ],
+      role: [
+        "Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine.",
+        "Making proposals and implementation."
+      ]
+    },
     thumbnail: "../../Assets/Images/dinosaur-svgrepo-com.svg"
   },
   {
@@ -141,7 +170,17 @@ export const EXPERIENCE_TIMELINE = [
     span: "",
     role: "",
     projects: "",
-    description: "cardReactAndJSDescription",
+    info: {
+      tech: [
+        "React, Redux, HTML, CSS, Typescript, Jest testing framework, storybook, styled components, Webpack, TSLint",
+        "Volkswagen’s components",
+        "node js"
+      ],
+      role: [
+        "Cross team communication with Volkswagen, FSAG, Dayone, FME, and Ukraine.",
+        "Making proposals and implementation."
+      ]
+    },
     thumbnail: "../../Assets/Images/flower-green.svg"
   }
 ];
