@@ -26,5 +26,13 @@
   "timelineInfoTitle":"Tech Stacks verwendet in",
   "timelineInfoTitleMulti":"diese Projekte",
   "timelineInfoTitleSingle":"dieses Projekt",
-  "timelineInfoRole":"Meine Rolle in"
+  "timelineInfoRole":"Meine Rolle in",
+  "skills":"FÄHIGKEITEN",
+  "techStack":"Tech Stack",
+  "supporting":"Unterstützend",
+  "tools":"Werkzeug",
+  "myInterests":"Meine Interessen",
+  "AvaniIntroTitle": "Hallo, ich bin Avani. Ein Frontend-Enthusiast.",
+  "AvaniIntroDesc":"Ich bin ein erfahrener Javascript-Entwickler und liebe es, interaktive End-to-End-Projekte zu erstellen.",
+  "timelineTitle": "WIE ALLES BEGANN"
 }

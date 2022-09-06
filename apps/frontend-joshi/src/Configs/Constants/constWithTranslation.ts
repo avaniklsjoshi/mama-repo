@@ -72,7 +72,6 @@ export const EXPERIENCE_TIMELINE_en = [
     thumbnail: "../../Assets/Images/flower-green.svg"
   }
 ];
-
 export const EXPERIENCE_TIMELINE_hn = [
   {
     title: "एटेक्चर जीएमबीएच, सॉफ्टवेयर डेवलपर",

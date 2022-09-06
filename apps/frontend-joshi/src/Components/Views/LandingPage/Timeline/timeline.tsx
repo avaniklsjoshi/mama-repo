@@ -27,7 +27,7 @@ export default function Timeline() {
 
   return (
     <div className="timeline">
-      <div className="timeline-title">HOW IT ALL STARTED {i18n.language}</div>
+      <div className="timeline-title">{t("timelineTitle")}</div>
 
       {activeTimeline &&
         activeTimeline.map((exp: any) => (

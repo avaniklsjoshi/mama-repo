@@ -26,5 +26,13 @@
   "timelineInfoTitle":"टेक स्टैक उपयोग किया गया",
   "timelineInfoTitleMulti":"इन परियोजनाओं में",
   "timelineInfoTitleSingle":"इस परियोजना में",
-  "timelineInfoRole":"मेरी भूमिका"
+  "timelineInfoRole":"मेरी भूमिका",
+  "skills":"कौशल",
+  "techStack":"टेक स्टैक",
+  "supporting":"सहायक",
+  "tools":"उपकरण",
+  "myInterests":"मेरी रुचियां",
+  "AvaniIntroTitle": "नमस्ते, मैं हूँ अवनि। एक फ्रंटएंड प्रेमी",
+  "AvaniIntroDesc":"मैं एक अनुभवी जावास्क्रिप्ट डेवलपर हूं और मुझे इंटरैक्टिव एंड-टू-एंड प्रोजेक्ट बनाना पसंद है।",
+  "timelineTitle": "यह सब कब प्रारंभ हुआ"
 }

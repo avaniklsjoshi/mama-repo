@@ -1,12 +1,15 @@
 import "./skills.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <div className="skills-container">
-      <div className="skills-title">SKILLS</div>
+      <div className="skills-title">{t("skills")}</div>
       <div className="container">
         <div className="col">
-          <h1 className="titulo">Tech Stack</h1>
+          <h1 className="titulo">{t("techStack")}</h1>
           <ul className="skill">
             <li>
               <span className="blueline javascript"></span>
@@ -39,7 +42,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h1 className="supporting titulo">Supporting</h1>
+          <h1 className="supporting titulo">{t("supporting")}</h1>
           <ul className="skill">
             <li>
               <span className="greenline typescript"></span>
@@ -76,7 +79,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className="col">
-          <h1 className="tools titulo">Tools</h1>
+          <h1 className="tools titulo">{t("tools")}</h1>
           <ul className="skill">
             <li>
               <span className="redline vscode"></span>
