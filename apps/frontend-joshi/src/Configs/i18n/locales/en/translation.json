@@ -20,5 +20,11 @@
   "cardUIInformation":"Expect all the unexpexted UI related stuff.. 😉",
   "cardReactAndJSTitle":"React & JS Techniques",
   "cardReactAndJSDescription":"Examples for cool React and JS tricks",
-  "cardReactAndJSInformation":"Expect all the unexpexted React and JS related stuff.. 😉"
+  "cardReactAndJSInformation":"Expect all the unexpexted React and JS related stuff.. 😉",
+  "projects":"Projects",
+  "role":"Role",
+  "timelineInfoTitle":"Tech Stacks used in",
+  "timelineInfoTitleMulti":"these projects",
+  "timelineInfoTitleSingle":"this project",
+  "timelineInfoRole":"My Role in"
 }

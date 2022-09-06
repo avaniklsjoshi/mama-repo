@@ -1,4 +1,5 @@
 import "./timeline.scss";
+import { useTranslation } from "react-i18next";
 
 interface InfoButtonProp {
   projects: string;
@@ -6,12 +7,17 @@ interface InfoButtonProp {
 }
 
 export default function InfoButton(props: InfoButtonProp) {
+  const { t } = useTranslation();
   const isProjects = props.projects.split(",").length > 1;
   return (
     <div className="info-container">
       <div className="tech-container">
         <div className="info-title">
-          Tech Stacks used in {isProjects ? "these projects" : "this project"} -
+          {t("timelineInfoTitle")}{" "}
+          {isProjects
+            ? t("timelineInfoTitleMulti")
+            : t("timelineInfoTitleSingle")}
+          -
         </div>
         <ul>
           {props.content.tech.map((tech: string, index: number) => (
@@ -21,7 +27,11 @@ export default function InfoButton(props: InfoButtonProp) {
       </div>
       <div className="role-container">
         <div className="info-title">
-          My Role in {isProjects ? "these projects" : "this project"}-
+          {t("timelineInfoRole")}{" "}
+          {isProjects
+            ? t("timelineInfoTitleMulti")
+            : t("timelineInfoTitleSingle")}
+          -
         </div>
         <ul>
           {props.content.role.map((role: string, index: number) => (

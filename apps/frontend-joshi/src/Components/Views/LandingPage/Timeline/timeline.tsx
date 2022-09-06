@@ -1,6 +1,6 @@
+import { IconButton, Tooltip } from "@mui/material";
 import { useEffect, useState } from "react";
 import "./timeline.scss";
-import { IconButton, Tooltip } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import InfoButton from "./infoButton";
 import { InfoIcon } from "../../../../Assets/SVG/infoIcon";
@@ -12,7 +12,7 @@ import {
 } from "../../../../Configs/Constants/constWithTranslation";
 
 export default function Timeline() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [activeTimeline, setActiveTimeline] = useState(EXPERIENCE_TIMELINE_en);
 
   useEffect(() => {
@@ -56,8 +56,12 @@ export default function Timeline() {
                 </Tooltip>
               </div>
               <div className="timeline__event__description">
-                <p>Projects- {exp.projects}</p>
-                <p>Role- {exp.role}</p>
+                <p>
+                  {t("projects")}- {exp.projects}
+                </p>
+                <p>
+                  {t("role")}- {exp.role}
+                </p>
               </div>
             </div>
           </div>
