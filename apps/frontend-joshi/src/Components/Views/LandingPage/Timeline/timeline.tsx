@@ -24,7 +24,9 @@ export default function Timeline() {
             <div className="timeline__event__title">
               {exp.title}
               <Tooltip
-                title={<InfoButton content={exp.info} />}
+                title={
+                  <InfoButton content={exp.info} projects={exp.projects} />
+                }
                 className="info-icon"
               >
                 <IconButton>

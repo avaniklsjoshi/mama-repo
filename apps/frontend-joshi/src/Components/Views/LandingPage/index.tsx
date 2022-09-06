@@ -20,6 +20,7 @@ export default function LandingPage() {
       <Timeline />
       <Skills />
       <Goals />
+      {/* <CurrentWork /> */}
       <PortfolioCard />
     </>
   );
