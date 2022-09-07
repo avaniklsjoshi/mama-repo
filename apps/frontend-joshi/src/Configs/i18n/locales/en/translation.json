@@ -34,5 +34,8 @@
   "myInterests":"My Interests",
   "AvaniIntroTitle": "Hi, I am Avani. A Frontend Enthusiast.",
   "AvaniIntroDesc":"I am an experienced Javascript Developer and I love to make interactive end-to-end projects.",
-  "timelineTitle": "HOW IT ALL STARTED"
+  "timelineTitle": "HOW IT ALL STARTED",
+  "followHere": "Follow Here!",
+  "currentWorkTitle":"Want to know what I am learning Currently?  ",
+  "back":"Back"
 }

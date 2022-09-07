@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import CurrentWork from "./currentWork";
 import Goals from "./goals";
 import DividingLine from "./Introduction/dividingLine";
 import Introduction from "./Introduction/introduction";
@@ -20,7 +21,7 @@ export default function LandingPage() {
       <Timeline />
       <Skills />
       <Goals />
-      {/* <CurrentWork /> */}
+      <CurrentWork />
       <PortfolioCard />
     </>
   );

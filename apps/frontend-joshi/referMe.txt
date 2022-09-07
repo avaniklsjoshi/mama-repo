@@ -3,8 +3,7 @@
 - device compatibility
 - check theme
 - check globalisation
-- visit whole website
-- check page completely
+- visit whole website, check page completely
 - write tests
 - write storybook(if applicable)
 

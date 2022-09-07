@@ -6,12 +6,12 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- design home page- about me, timeline, language and tools, future goals, fix media queries
+- design subroutes page
 - adjust theme, media queries,
-- tell me a joke section, Meme Generator\*
-- api fail UI, centralized loader
+- api fail UI, centralized loader, 118n backend
 - scroll loader at top
 - write tests, storybook, launch app may be with docker..
+- tell me a joke section, Meme Generator\*
 - Things to notice in the App
 - Real-Time Chat, Music Player\*
 - Personal Blog\*
@@ -51,6 +51,7 @@ Status: 🌶️ In Progress
 - cards for microfrontend initial stage
 - Implementing routes and child routes properly
 - adjust cards, back button
+- design home page- about me, timeline, language and tools, future goals
 
 ---
 
