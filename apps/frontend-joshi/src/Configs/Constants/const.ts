@@ -109,3 +109,33 @@ export const CARDS_LIST = [
     information: "cardReactAndJSInformation"
   }
 ];
+
+export enum SUB_ROUTE_NAMES {
+  UI_LEARNINGS = "uiLearnings",
+  REACT_AND_JS_LEARNINGS = "reactAndJsLearnings",
+  MISC_LEARNINGS = "miscLearnings"
+}
+
+export const FEATURINGS = {
+  [SUB_ROUTE_NAMES.UI_LEARNINGS]: {
+    menu: [
+      { title: "Parallax Effect", componentName: "parallax" },
+      { title: "Bubble Effect", componentName: "bubbleEffect" },
+      { title: "Designer Title", componentName: "designerTitle" }
+    ]
+  },
+  [SUB_ROUTE_NAMES.REACT_AND_JS_LEARNINGS]: {
+    menu: [
+      { title: "Batching", componentName: "batching" },
+      { title: "Transition", componentName: "transition" },
+      { title: "Suspence", componentName: "suspence" }
+    ]
+  },
+  [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
+    menu: [
+      { title: "Coding Area", componentName: "codingArea" },
+      { title: "Chat Bot", componentName: "chatBot" },
+      { title: "Memes", componentName: "meme" }
+    ]
+  }
+};

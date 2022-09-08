@@ -1,11 +1,49 @@
-import Layout from "../layout";
+import { useEffect, useState } from "react";
+import ChatBot from "./chatBot";
+import CodingArea from "./codingArea";
+import Meme from "./meme";
 
-export default function MiscellaneousCoolStuff() {
+import WelcomePage from "./welcomePage";
+
+interface IMiscProps {
+  activeRouteComponentDetails?: any;
+}
+interface INewComponent {
+  [key: string]: () => JSX.Element;
+}
+export default function MiscellaneousCoolStuff(props: IMiscProps) {
+  const components: INewComponent = {
+    welcomePage: WelcomePage,
+    chatBot: ChatBot,
+    codingArea: CodingArea,
+    meme: Meme
+  };
+  const { activeRouteComponentDetails } = props;
+  const [RenderComp, setRenderComp] = useState("welcomePage");
+
+  let TagName = components[RenderComp] as React.ElementType;
+
+  useEffect(() => {
+    if (activeRouteComponentDetails) {
+      setRenderComp(activeRouteComponentDetails.componentName);
+    }
+  }, [activeRouteComponentDetails]);
+  if (RenderComp) {
+    TagName = components[RenderComp] as React.ElementType;
+  }
+
   return (
     <>
-      <Layout>
-        <div>miscellaneous Cool Stuff</div>
-      </Layout>
+      {activeRouteComponentDetails &&
+      activeRouteComponentDetails.componentName ? (
+        <div>
+          <TagName />
+        </div>
+      ) : (
+        <div>
+          <WelcomePage />
+        </div>
+      )}
     </>
   );
 }

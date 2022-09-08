@@ -1,5 +1,6 @@
 <h3> Check before Completing task- </h3>
 - check grid, layout, responsiveness
+- check typescripts
 - device compatibility
 - check theme
 - check globalisation
