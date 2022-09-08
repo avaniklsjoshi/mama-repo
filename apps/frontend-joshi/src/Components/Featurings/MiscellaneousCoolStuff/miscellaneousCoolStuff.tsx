@@ -38,7 +38,7 @@ export default function MiscellaneousCoolStuff(props: IMiscProps) {
       activeRouteComponentDetails.componentName ? (
         <FeatureComponent />
       ) : (
-        <WelcomePage welcomeMsg="Welcome to ui page!" />
+        <WelcomePage welcomeMsg="Welcome to misc page!" />
       )}
     </>
   );

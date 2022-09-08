@@ -126,7 +126,6 @@ export const FEATURINGS = {
   },
   [SUB_ROUTE_NAMES.REACT_AND_JS_LEARNINGS]: {
     menu: [
-      { title: "Batching", componentName: "batching" },
       { title: "Transition", componentName: "transition" },
       { title: "Suspence", componentName: "suspence" }
     ]
