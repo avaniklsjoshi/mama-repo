@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 import ChatBot from "./chatBot";
 import CodingArea from "./codingArea";
 import Meme from "./meme";
-
-import WelcomePage from "./welcomePage";
+import WelcomePage, { IWelcomePage } from "../welcomePage";
 
 interface IMiscProps {
   activeRouteComponentDetails?: any;
 }
 interface INewComponent {
-  [key: string]: () => JSX.Element;
+  [key: string]: (props: IWelcomePage) => JSX.Element;
 }
 export default function MiscellaneousCoolStuff(props: IMiscProps) {
   const components: INewComponent = {
@@ -21,28 +20,25 @@ export default function MiscellaneousCoolStuff(props: IMiscProps) {
   const { activeRouteComponentDetails } = props;
   const [RenderComp, setRenderComp] = useState("welcomePage");
 
-  let TagName = components[RenderComp] as React.ElementType;
+  let FeatureComponent = components[RenderComp] as React.ElementType;
 
   useEffect(() => {
     if (activeRouteComponentDetails) {
       setRenderComp(activeRouteComponentDetails.componentName);
     }
   }, [activeRouteComponentDetails]);
+
   if (RenderComp) {
-    TagName = components[RenderComp] as React.ElementType;
+    FeatureComponent = components[RenderComp] as React.ElementType;
   }
 
   return (
     <>
       {activeRouteComponentDetails &&
       activeRouteComponentDetails.componentName ? (
-        <div>
-          <TagName />
-        </div>
+        <FeatureComponent />
       ) : (
-        <div>
-          <WelcomePage />
-        </div>
+        <WelcomePage welcomeMsg="Welcome to ui page!" />
       )}
     </>
   );
