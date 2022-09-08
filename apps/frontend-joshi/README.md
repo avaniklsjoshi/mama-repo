@@ -6,11 +6,10 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- design subroutes page
-- adjust theme, media queries,
+- adjust theme, media queries, write tests, storybook, typescript, i18n
+- launch app may be with docker..
 - api fail UI, centralized loader, 118n backend
 - scroll loader at top
-- write tests, storybook, launch app may be with docker..
 - tell me a joke section, Meme Generator\*
 - Things to notice in the App
 - Real-Time Chat, Music Player\*
@@ -52,6 +51,7 @@ Status: 🌶️ In Progress
 - Implementing routes and child routes properly
 - adjust cards, back button
 - design home page- about me, timeline, language and tools, future goals
+- feature sub route functionality, design subroutes page, with left menu
 
 ---
 

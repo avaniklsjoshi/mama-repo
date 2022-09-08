@@ -32,14 +32,10 @@ export default function UILearnings(props: IMiscProps) {
     FeatureComponent = components[RenderComp] as React.ElementType;
   }
 
-  return (
-    <>
-      {activeRouteComponentDetails &&
-      activeRouteComponentDetails.componentName ? (
-        <FeatureComponent />
-      ) : (
-        <WelcomePage welcomeMsg="Welcome to ui page!" />
-      )}
-    </>
+  return activeRouteComponentDetails &&
+    activeRouteComponentDetails.componentName ? (
+    <FeatureComponent />
+  ) : (
+    <WelcomePage welcomeMsg="Welcome to ui page!" />
   );
 }

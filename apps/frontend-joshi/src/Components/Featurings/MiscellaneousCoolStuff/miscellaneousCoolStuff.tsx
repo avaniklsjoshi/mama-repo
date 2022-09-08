@@ -32,14 +32,10 @@ export default function MiscellaneousCoolStuff(props: IMiscProps) {
     FeatureComponent = components[RenderComp] as React.ElementType;
   }
 
-  return (
-    <>
-      {activeRouteComponentDetails &&
-      activeRouteComponentDetails.componentName ? (
-        <FeatureComponent />
-      ) : (
-        <WelcomePage welcomeMsg="Welcome to misc page!" />
-      )}
-    </>
+  return activeRouteComponentDetails &&
+    activeRouteComponentDetails.componentName ? (
+    <FeatureComponent />
+  ) : (
+    <WelcomePage welcomeMsg="Welcome to misc page!" />
   );
 }

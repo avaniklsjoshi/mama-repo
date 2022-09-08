@@ -30,14 +30,10 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
     FeatureComponent = components[RenderComp] as React.ElementType;
   }
 
-  return (
-    <>
-      {activeRouteComponentDetails &&
-      activeRouteComponentDetails.componentName ? (
-        <FeatureComponent />
-      ) : (
-        <WelcomePage welcomeMsg="Welcome to react and js page!" />
-      )}
-    </>
+  return activeRouteComponentDetails &&
+    activeRouteComponentDetails.componentName ? (
+    <FeatureComponent />
+  ) : (
+    <WelcomePage welcomeMsg="Welcome to react and js page!" />
   );
 }

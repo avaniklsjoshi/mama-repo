@@ -1,7 +1,6 @@
 <h3> Check before Completing task- </h3>
-- check grid, layout, responsiveness
+- check grid, layout, responsiveness, device compatibility
 - check typescripts
-- device compatibility
 - check theme
 - check globalisation
 - visit whole website, check page completely
@@ -17,7 +16,6 @@
 - Readme - https://www.sitepoint.com/github-profile-readme
 - project Ideas - https://hackr.io/blog/react-projects
 - heroku deployment - https://github.com/marketplace/actions/deploy-to-heroku#license
-- router - https://codesandbox.io/s/nested-routes-outlet-lpllv?file=/src/App.js
 
 eye pointer https://www.seanhalpin.design/
 chat bot
