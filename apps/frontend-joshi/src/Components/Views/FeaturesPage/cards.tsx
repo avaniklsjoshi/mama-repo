@@ -33,7 +33,6 @@ export default function Cards() {
   };
   const handleCard = (e: any, path: string) => {
     navigate(path);
-    console.log("card clicked", e.target.id);
   };
 
   return (

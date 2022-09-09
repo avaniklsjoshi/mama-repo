@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FEATURINGS } from "../../Configs/Constants/const";
+import Menu from "./menu";
+import * as SC from "./partials";
 import BackLink from "../Common/backLink";
 import "./layout.scss";
 
@@ -13,40 +14,30 @@ export interface IComponentDetails {
 }
 
 export default function Layout(props: ILayoutProps) {
-  type ObjectKey = keyof typeof FEATURINGS;
-
-  const { routeName } = props;
+  const { routeName, children } = props;
   const [activeRouteComponentDetails, setActiveRouteComponentDetails] =
     useState<IComponentDetails>();
 
-  const handleMenuClick = (e: React.SyntheticEvent, item: any) => {
-    setActiveRouteComponentDetails(item);
+  const activeComponent = (data: IComponentDetails) => {
+    setActiveRouteComponentDetails(data);
   };
 
   return (
-    <div className="sub-route-content">
+    <SC.SubRouteContent>
       <BackLink />
       <div className="sub-route-container">
         <div className="left-bar">
-          {FEATURINGS[routeName as ObjectKey].menu.map(
-            (item: any, index: number) => {
-              return (
-                <button key={index} onClick={(e) => handleMenuClick(e, item)}>
-                  {item.title}
-                </button>
-              );
-            }
-          )}
+          <Menu routeName={routeName} activeComponent={activeComponent} />
         </div>
         <div className="right-bar">
           <div className="right-bar-title">
             {activeRouteComponentDetails?.title}
           </div>
-          {React.cloneElement(props.children, {
+          {React.cloneElement(children, {
             activeRouteComponentDetails: activeRouteComponentDetails
           })}
         </div>
       </div>
-    </div>
+    </SC.SubRouteContent>
   );
 }

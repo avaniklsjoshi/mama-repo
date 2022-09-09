@@ -1,25 +1,47 @@
-.sub-route-content{
-    display: flex;
-    flex-direction: column;
-    .sub-route-container{
-        display: grid;
-        flex: 1;
-        grid-template-columns: repeat(12, 1fr);
-        grid-gap: 10px;
 
-        .left-bar{
-            grid-column: span 4;
-            justify-self: flex-start;
-            padding: 8px;
-            grid-column-start: 1;
-            grid-column-end: span 4;
-        }
-        .right-bar{
-            grid-column: span 8;
-            justify-self: flex-start;
-            padding: 8px;
-            border-left: 1px solid gray;
+.sub-route-container{
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
 
-        }
+    .left-bar{
+        grid-column: span 4;
+        justify-self: flex-start;
+        padding: 8px;
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        width: 100%;
+    }
+    .right-bar{
+        grid-column: span 8;
+        justify-self: flex-start;
+        padding: 8px;
+
     }
 }
+//-------- Left Menu Start ----------
+.left-menu-box{
+    text-align: initial;
+    height: 100%;
+    svg{
+        fill:gray;
+    }
+
+    .left-drawer-menu-icon{
+        margin-left: 12px !important;
+
+    }
+    .left-drawer{
+        div{
+            background: initial;
+            width: 100%;
+            position: relative;
+            height: 100%;
+            color: inherit;
+            padding-left: 6px;
+        }
+
+    }
+}
+//-------- Left Menu End ----------
