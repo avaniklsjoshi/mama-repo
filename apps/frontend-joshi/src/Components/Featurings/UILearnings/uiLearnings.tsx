@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import BubbleEffect from "./bubbleEffect";
 import DesignerTitle from "./designerTitle";
 import Parallax from "./parallax";
@@ -12,6 +13,11 @@ interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;
 }
 export default function UILearnings(props: IMiscProps) {
+  const { t } = useTranslation();
+  const welcomeMsg: any = t("welcomeMsgSubRoutePage", {
+    returnObjects: true
+  });
+
   const components: INewComponent = {
     welcomePage: WelcomePage,
     parallax: Parallax,
@@ -37,6 +43,6 @@ export default function UILearnings(props: IMiscProps) {
     activeRouteComponentDetails.componentName ? (
     <FeatureComponent />
   ) : (
-    <WelcomePage welcomeMsg="Welcome to ui page!" />
+    <WelcomePage welcomeMsg={welcomeMsg.ui} />
   );
 }

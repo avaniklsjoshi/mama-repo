@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import ChatBot from "./chatBot";
 import CodingArea from "./codingArea";
 import Meme from "./meme";
@@ -12,6 +13,11 @@ interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;
 }
 export default function MiscellaneousCoolStuff(props: IMiscProps) {
+  const { t } = useTranslation();
+  const welcomeMsg: any = t("welcomeMsgSubRoutePage", {
+    returnObjects: true
+  });
+
   const components: INewComponent = {
     welcomePage: WelcomePage,
     chatBot: ChatBot,
@@ -37,6 +43,6 @@ export default function MiscellaneousCoolStuff(props: IMiscProps) {
     activeRouteComponentDetails.componentName ? (
     <FeatureComponent />
   ) : (
-    <WelcomePage welcomeMsg="Welcome to misc page!" />
+    <WelcomePage welcomeMsg={welcomeMsg.misc} />
   );
 }

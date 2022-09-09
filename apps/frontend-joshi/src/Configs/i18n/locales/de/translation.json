@@ -37,5 +37,10 @@
   "timelineTitle": "WIE ALLES BEGANN",
   "followHere": "Folgen Sie hier!",
   "currentWorkTitle":"Willst du wissen, was ich gerade lerne?  ",
-  "back":"Zurück"
+  "back":"Zurück",
+  "welcomeMsgSubRoutePage":{
+    "ui":"Willkommen auf der UI-Seite!",
+    "reactAndJs":"Willkommen auf der React And JS-Seite!",
+    "misc":"Willkommen auf der Seite Verschiedenes!"
+  }
 }

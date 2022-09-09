@@ -37,5 +37,10 @@
   "timelineTitle": "HOW IT ALL STARTED",
   "followHere": "Follow Here!",
   "currentWorkTitle":"Want to know what I am learning Currently?  ",
-  "back":"Back"
+  "back":"Back",
+  "welcomeMsgSubRoutePage":{
+    "ui":"Welcome to UI page!",
+    "reactAndJs":"Welcome to React And JS page!",
+    "misc":"Welcome to Miscellaneous page!"
+  }
 }
