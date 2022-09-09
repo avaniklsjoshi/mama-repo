@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-
 import Suspence from "./suspence";
 import Transition from "./transition";
+import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
+import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
 import { IComponentDetails } from "../layout";
 import WelcomePage, { IWelcomePage } from "../welcomePage";
 
@@ -13,25 +13,19 @@ interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;
 }
 export default function ReactAndJSLearnings(props: IMiscProps) {
-  const { t } = useTranslation();
-  const welcomeMsg: any = t("welcomeMsgSubRoutePage", {
-    returnObjects: true
-  });
   const components: INewComponent = {
     welcomePage: WelcomePage,
     suspence: Suspence,
     transition: Transition
   };
   const { activeRouteComponentDetails } = props;
-  const [RenderComp, setRenderComp] = useState("welcomePage");
+
+  const welcomeMsg = useWelcomeMsg("reactAndJs");
+  const RenderComp = useActiveComponent(
+    activeRouteComponentDetails?.componentName
+  );
 
   let FeatureComponent = components[RenderComp] as React.ElementType;
-
-  useEffect(() => {
-    if (activeRouteComponentDetails) {
-      setRenderComp(activeRouteComponentDetails.componentName);
-    }
-  }, [activeRouteComponentDetails]);
 
   if (RenderComp) {
     FeatureComponent = components[RenderComp] as React.ElementType;
@@ -41,6 +35,6 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
     activeRouteComponentDetails.componentName ? (
     <FeatureComponent />
   ) : (
-    <WelcomePage welcomeMsg={welcomeMsg.reactAndJs} />
+    <WelcomePage welcomeMsg={welcomeMsg} />
   );
 }

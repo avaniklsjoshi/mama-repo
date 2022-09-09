@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 import BubbleEffect from "./bubbleEffect";
 import DesignerTitle from "./designerTitle";
 import Parallax from "./parallax";
+import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
+import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
 import { IComponentDetails } from "../layout";
 import WelcomePage, { IWelcomePage } from "../welcomePage";
 
@@ -13,11 +14,6 @@ interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;
 }
 export default function UILearnings(props: IMiscProps) {
-  const { t } = useTranslation();
-  const welcomeMsg: any = t("welcomeMsgSubRoutePage", {
-    returnObjects: true
-  });
-
   const components: INewComponent = {
     welcomePage: WelcomePage,
     parallax: Parallax,
@@ -25,15 +21,13 @@ export default function UILearnings(props: IMiscProps) {
     designerTitle: DesignerTitle
   };
   const { activeRouteComponentDetails } = props;
-  const [RenderComp, setRenderComp] = useState("welcomePage");
+
+  const welcomeMsg = useWelcomeMsg("ui");
+  const RenderComp = useActiveComponent(
+    activeRouteComponentDetails?.componentName
+  );
 
   let FeatureComponent = components[RenderComp] as React.ElementType;
-
-  useEffect(() => {
-    if (activeRouteComponentDetails) {
-      setRenderComp(activeRouteComponentDetails.componentName);
-    }
-  }, [activeRouteComponentDetails]);
 
   if (RenderComp) {
     FeatureComponent = components[RenderComp] as React.ElementType;
@@ -43,6 +37,6 @@ export default function UILearnings(props: IMiscProps) {
     activeRouteComponentDetails.componentName ? (
     <FeatureComponent />
   ) : (
-    <WelcomePage welcomeMsg={welcomeMsg.ui} />
+    <WelcomePage welcomeMsg={welcomeMsg} />
   );
 }
