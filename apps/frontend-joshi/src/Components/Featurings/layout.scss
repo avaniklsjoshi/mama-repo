@@ -6,15 +6,15 @@
     grid-gap: 10px;
 
     .left-bar{
-        grid-column: span 4;
+        grid-column: span 3;
         justify-self: flex-start;
         padding: 8px;
         grid-column-start: 1;
-        grid-column-end: span 4;
+        grid-column-end: span 3;
         width: 100%;
     }
     .right-bar{
-        grid-column: span 8;
+        grid-column: span 9;
         justify-self: flex-start;
         padding: 8px;
 
