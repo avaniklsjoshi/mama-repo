@@ -1,6 +1,6 @@
-import React from "react";
+import { ISVG } from "./types";
 
-export const Gitlab = (props: any) => {
+export const Gitlab = (props: ISVG) => {
   const { width = "24px", height = "24px" } = props;
   return (
     <svg

@@ -1,6 +1,6 @@
-import React from "react";
+import { ISVG } from "./types";
 
-export const InfoIcon = (props: any) => {
+export const InfoIcon = (props: ISVG) => {
   const { width = "14px", height = "14px" } = props;
   return (
     <svg

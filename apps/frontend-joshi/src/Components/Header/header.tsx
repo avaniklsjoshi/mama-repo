@@ -24,16 +24,14 @@ export default function Header() {
           {t("avani")}
         </div>
         <div className="header-accessibilities">
-          <div>
-            <ThemePicker />
-          </div>
+          <ThemePicker />
           <div className="feature-language">
             <div
               className="header-navigator"
               onClick={navigateToFeatures}
               aria-hidden="true"
             >
-              {t(ROUTES_NAME_KEY.FEATURES)}
+              {t("featuresRoute")}
             </div>
             <div className="header-lang-picker">
               <LanguagePicker />

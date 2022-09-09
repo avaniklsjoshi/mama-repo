@@ -1,6 +1,6 @@
-import React from "react";
+import { ISVG } from "./types";
 
-export const Share = (props: any) => {
+export const Share = (props: ISVG) => {
   const { width = "24px", height = "24px" } = props;
   return (
     <svg
