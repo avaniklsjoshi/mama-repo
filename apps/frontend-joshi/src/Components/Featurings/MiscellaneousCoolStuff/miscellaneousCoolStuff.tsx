@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import ChatBot from "./chatBot";
 import CodingArea from "./codingArea";
 import Meme from "./meme";
+import { IComponentDetails } from "../layout";
 import WelcomePage, { IWelcomePage } from "../welcomePage";
 
 interface IMiscProps {
-  activeRouteComponentDetails?: any;
+  activeRouteComponentDetails?: IComponentDetails;
 }
 interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;

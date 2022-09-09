@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import BubbleEffect from "./bubbleEffect";
 import DesignerTitle from "./designerTitle";
 import Parallax from "./parallax";
+import { IComponentDetails } from "../layout";
 import WelcomePage, { IWelcomePage } from "../welcomePage";
 
 interface IMiscProps {
-  activeRouteComponentDetails?: any;
+  activeRouteComponentDetails?: IComponentDetails;
 }
 interface INewComponent {
   [key: string]: (props: IWelcomePage) => JSX.Element;

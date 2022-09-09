@@ -10,6 +10,7 @@ import {
   EXPERIENCE_TIMELINE_en,
   EXPERIENCE_TIMELINE_hn
 } from "../../../../Configs/Constants/constWithTranslation";
+import { ISingleExperience } from "../../../../Configs/Constants/types";
 
 export default function Timeline() {
   const { i18n, t } = useTranslation();
@@ -30,7 +31,7 @@ export default function Timeline() {
       <div className="timeline-title">{t("timelineTitle")}</div>
 
       {activeTimeline &&
-        activeTimeline.map((exp: any) => (
+        activeTimeline.map((exp: ISingleExperience) => (
           <div
             className="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
             key={exp.title}

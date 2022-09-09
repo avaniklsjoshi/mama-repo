@@ -74,7 +74,7 @@ export default function Menu(props: IMenu) {
         <Divider />
         <List>
           {FEATURINGS[routeName as ObjectKey].menu.map(
-            (item: any, index: number) => (
+            (item: IComponentDetails, index: number) => (
               <ListItem
                 disablePadding
                 key={index}

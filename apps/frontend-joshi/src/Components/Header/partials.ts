@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderContainer: any = styled.div`
+export const HeaderContainer = styled.div`
   background: ${(props) => props.theme.header.background};
   color: ${(props) => props.theme.header.text};
   box-shadow: 0 -3px 20px 5px grey;

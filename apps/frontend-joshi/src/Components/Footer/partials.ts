@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer: any = styled.div`
+export const FooterContainer = styled.div`
   background: ${(props) => props.theme.footer.background};
   color: ${(props) => props.theme.footer.text};
   box-shadow: 0 -4px 20px -2px grey;
