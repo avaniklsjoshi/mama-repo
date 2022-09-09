@@ -1,4 +1,4 @@
-import { MenuItem, Select } from "@mui/material";
+import { MenuItem, Select, SelectChangeEvent } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import {
   DEFAULT_LANGUAGE,
@@ -9,8 +9,8 @@ import {
 export default function LanguagePicker() {
   const { i18n } = useTranslation();
 
-  const changeLanguageHandler = (e: any) => {
-    const languageValue = e.target.value;
+  const changeLanguageHandler = (event: SelectChangeEvent) => {
+    const languageValue = event.target.value;
     i18n.changeLanguage(languageValue);
   };
 
