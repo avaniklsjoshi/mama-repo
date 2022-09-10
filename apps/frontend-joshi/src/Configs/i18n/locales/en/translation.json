@@ -42,5 +42,13 @@
     "ui":"Welcome to UI page!",
     "reactAndJs":"Welcome to React And JS page!",
     "misc":"Welcome to Miscellaneous page!"
-  }
+  },
+  "goals":[
+    "Be able to fully engineer a Web project from start to finish within the next year.",
+    "Increase unit test coverage on all critical paths to 80%.",
+    "Devops certification",
+    "Set up end-to-end testing on all core user journeys by the end of the year.",
+    "Learn a new programming language, may be Python",
+    "Give a presentation on a new coding project at two software development conferences next year."
+  ]
 }

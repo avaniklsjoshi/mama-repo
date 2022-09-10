@@ -42,5 +42,13 @@
     "ui":"Willkommen auf der UI-Seite!",
     "reactAndJs":"Willkommen auf der React And JS-Seite!",
     "misc":"Willkommen auf der Seite Verschiedenes!"
-  }
+  },
+  "goals":[
+    "In der Lage sein, ein Webprojekt von Anfang bis Ende innerhalb des nächsten Jahres vollständig zu entwickeln.",
+    "Erhöhen Sie die Einheitentestabdeckung auf allen kritischen Pfaden auf 80 %.",
+    "Devops-Zertifizierung",
+    "Bis Ende des Jahres End-to-End-Tests für alle wichtigen User Journeys einrichten.",
+    "Lerne eine neue Programmiersprache, vielleicht Python",
+    "Halten Sie nächstes Jahr auf zwei Softwareentwicklungskonferenzen eine Präsentation über ein neues Codierungsprojekt."
+  ]
 }
