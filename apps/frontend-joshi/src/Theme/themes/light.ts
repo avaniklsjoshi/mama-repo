@@ -1,20 +1,20 @@
 export default {
   themeType: "light",
   body: {
-    backgroundColor: "rgb(10 25 41)",
-    url: "../../Assets/Images/basketball.png",
+    backgroundColor: "#fff",
+    url: "../../Assets/Images/cubes.png",
     textColor: "rgb(189, 189, 189);",
-    titleColor: "#fff",
+    titleColor: "#000",
     subTitleColor: "#fff",
     descColor: "rgb(189, 189, 189);"
   },
   header: {
-    background: "rgba(10, 25, 41, 0.7)",
-    textColor: "rgb(158, 158, 158)"
+    background: "#e3f2fd",
+    textColor: "red"
   },
   footer: {
-    background: "rgba(10, 25, 41, 0.7)",
-    textColor: "rgb(158, 158, 158)"
+    background: "#e3f2fd",
+    textColor: "red"
   },
   section: {
     titleColor: "#bf360c",
@@ -22,14 +22,14 @@ export default {
     descColor: "#ff8a65"
   },
   link: {
-    textColor: "#42a5f5"
+    textColor: "#4fc3f7"
   },
   button: {
-    background: "#e64a19",
+    background: "#4fc3f7",
     textColor: "#fff"
   },
-  error: { color: "#d32f2f" },
-  warning: { color: "#f57c00" },
-  info: { color: "#0288d1" },
-  success: { color: "#388e3c" }
+  error: { color: "#e57373" },
+  warning: { color: "#ffb74d" },
+  info: { color: "#4fc3f7" },
+  success: { color: "#81c784" }
 };

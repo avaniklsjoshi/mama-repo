@@ -1,5 +1,6 @@
 import "./goals.scss";
 import { useTranslation } from "react-i18next";
+import * as SC from "./partials";
 
 export default function Goals() {
   const { t } = useTranslation();
@@ -7,7 +8,10 @@ export default function Goals() {
 
   return (
     <div className="goals-container">
-      <h2>{t("myInterests")}</h2>
+      <SC.SkillsTitle className="goals-title">
+        {t("myInterests")}
+      </SC.SkillsTitle>
+
       <ul>
         {goals.map((text, index) => (
           <li key={index}>{text}</li>

@@ -9,6 +9,8 @@ Status: 🌶️ In Progress
 - write tests, storybook,
 - launch app may be with docker..
 - api fail UI, centralized loader, 118n backend
+- like and share card functionality
+- accessibility and dynamic font
 - scroll loader at top
 - tell me a joke section, Meme Generator\*
 - Things to notice in the App

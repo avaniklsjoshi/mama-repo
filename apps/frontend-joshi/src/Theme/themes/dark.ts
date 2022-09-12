@@ -3,8 +3,8 @@ export default {
   body: {
     backgroundColor: "rgb(3 21 40)",
     url: "../../assets/Images/basketball.png",
-    textColor: "rgb(189, 189, 189);",
-    titleColor: "#fff",
+    textColor: "#efecec",
+    titleColor: "#e7e6e6",
     subTitleColor: "#fff",
     descColor: "rgb(189, 189, 189);"
   },

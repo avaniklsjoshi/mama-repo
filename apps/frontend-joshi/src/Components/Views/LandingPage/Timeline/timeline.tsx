@@ -11,6 +11,7 @@ import {
   EXPERIENCE_TIMELINE_hn
 } from "../../../../Configs/Constants/constWithTranslation";
 import { ISingleExperience } from "../../../../Configs/Constants/types";
+import * as SC from "../partials";
 
 export default function Timeline() {
   const { i18n, t } = useTranslation();
@@ -28,8 +29,9 @@ export default function Timeline() {
 
   return (
     <div className="timeline">
-      <div className="timeline-title">{t("timelineTitle")}</div>
-
+      <SC.SkillsTitle className="timeline-title">
+        {t("timelineTitle")}
+      </SC.SkillsTitle>
       {activeTimeline &&
         activeTimeline.map((exp: ISingleExperience) => (
           <div

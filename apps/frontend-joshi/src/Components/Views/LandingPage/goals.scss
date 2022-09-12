@@ -4,8 +4,9 @@
 .goals-container{
     font-size: $appFontSize1XLarge;
     margin: $spacing4d;
-    h2{
+    .goals-title{
         margin: $spacing4d;
+        font-size: $appSubTitleFontSize;
     }
     ul{
         list-style-type: none;

@@ -13,11 +13,12 @@ export default function FeaturesPage() {
 
   return (
     <div className="feature-container">
-      <div className="feature-title">{t("featuresRoute")}</div>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      {/* <div className="feature-title">{t("featuresRoute")}</div> */}
       <Cards />
-      <div className="content">
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   );
 }

@@ -21,7 +21,7 @@ export default function Header() {
     <SC.HeaderContainer>
       <div className="header-container">
         <div className="header-title" onClick={navigateHome} aria-hidden="true">
-          {t("avani")}
+          <SC.HeaderTitle>{t("avani")}</SC.HeaderTitle>
         </div>
         <div className="header-accessibilities">
           <ThemePicker />

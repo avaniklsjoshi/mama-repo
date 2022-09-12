@@ -12,3 +12,8 @@ export const HeaderContainer = styled.div`
   z-index: 1;
 }
 `;
+
+export const HeaderTitle = styled.div`
+  color: ${(props) => props.theme.body.titleColor};
+}
+`;

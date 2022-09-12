@@ -32,6 +32,9 @@
     min-width: 135px;
     display: flex;
     justify-content: flex-end;
+    &:hover{
+      color: #fff;
+    }
   }
 }
 .feature-language {
@@ -59,7 +62,7 @@
     &.Mui-selected:hover {
       background: none;
       .img-back {
-        box-shadow: 1px 1.5px 23px red;
+        box-shadow: 1px 1.5px 23px #4dff00;
         height: 15px;
         width: 15px;
         border-radius: 18px;
@@ -71,10 +74,13 @@
     }
   }
   button:hover {
-    box-shadow: 1px 1.5px 8px red;
+    box-shadow: 1px 1.5px 12px #f18b0b;
     border-radius: 24px;
   }
 }
 .header-navigator {
   cursor: pointer;
+  &:hover{
+    color: #fff;
+  }
 }
