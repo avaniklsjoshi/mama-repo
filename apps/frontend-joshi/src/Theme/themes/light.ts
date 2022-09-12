@@ -3,23 +3,23 @@ export default {
   body: {
     backgroundColor: "#fff",
     url: "../../Assets/Images/cubes.png",
-    textColor: "rgb(189, 189, 189);",
+    textColor: "#383535",
     titleColor: "#000",
     subTitleColor: "#fff",
-    descColor: "rgb(189, 189, 189);"
+    descColor: "#383535"
   },
   header: {
-    background: "#e3f2fd",
-    textColor: "red"
+    background: "#71c2fd61",
+    textColor: "#383535"
   },
   footer: {
-    background: "#e3f2fd",
-    textColor: "red"
+    background: "#71c2fd61",
+    textColor: "#383535"
   },
   section: {
     titleColor: "#bf360c",
     subTitleColor: "#e64a19",
-    descColor: "#ff8a65"
+    descColor: "#383535"
   },
   link: {
     textColor: "#4fc3f7"
