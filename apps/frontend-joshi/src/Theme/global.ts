@@ -7,8 +7,8 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background-color: ${(props) => props.theme.colors.background} !important;
-    background: ${(props) => props.theme.colors.background};
-    color: ${(props) => props.theme.colors.text};
+    background-color: ${(props) => props.theme.body.backgroundColor} !important;
+    background-image: url(${(props) => props.theme.body.url});
+    color: ${(props) => props.theme.body.textColor};
   }
 `;

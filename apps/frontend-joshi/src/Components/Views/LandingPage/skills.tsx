@@ -1,12 +1,13 @@
 import "./skills.scss";
 import { useTranslation } from "react-i18next";
+import * as SC from "./partials";
 
 export default function Skills() {
   const { t } = useTranslation();
 
   return (
     <div className="skills-container">
-      <div className="skills-title">{t("skills")}</div>
+      <SC.SkillsTitle className="skills-title">{t("skills")}</SC.SkillsTitle>
       <div className="container">
         <div className="col">
           <h1 className="titulo">{t("techStack")}</h1>

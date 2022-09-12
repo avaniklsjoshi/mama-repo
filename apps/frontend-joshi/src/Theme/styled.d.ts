@@ -3,24 +3,37 @@ import "styled-components";
 declare module "styled-components" {
   export interface DefaultTheme {
     themeType: string;
-    colors: {
-      background: string;
-      text: string;
+    body: {
+      backgroundColor: string;
+      url: string;
+      textColor: string;
+      titleColor: string;
+      subTitleColor: string;
+      descColor: string;
     };
     header: {
       background: string;
-      text: string;
+      textColor: string;
     };
     footer: {
       background: string;
-      text: string;
+      textColor: string;
     };
     section: {
-      background: string;
-      text: string;
+      titleColor: string;
+      subTitleColor: string;
+      descColor: string;
     };
     link: {
-      text: string;
+      textColor: string;
     };
+    button: {
+      background: string;
+      textColor: string;
+    };
+    error: { color: string };
+    warning: { color: string };
+    info: { color: string };
+    success: { color: string };
   }
 }
