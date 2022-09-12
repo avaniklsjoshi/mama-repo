@@ -2,11 +2,14 @@
 @import "../../../CommonStyles/placeholders.scss";
 
 .feature-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
   .feature-title {
     font-size: $appSubTitleFontSize;
   }
   .feature-cards-conatainer {
-   padding: $spacing6d;
     display: flex;
     flex-flow:row wrap;
     justify-content: space-around;

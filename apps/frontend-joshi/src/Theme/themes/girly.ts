@@ -1,7 +1,7 @@
 export default {
   themeType: "light",
   body: {
-    backgroundColor: "#f3e5f5",
+    backgroundColor: "#f5e9f2",
     url: "../../Assets/Images/pinkFlowers.png",
     textColor: "#58c121",
     titleColor: "#276506",
