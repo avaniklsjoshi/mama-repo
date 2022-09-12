@@ -9,11 +9,11 @@ export default {
     descColor: "#383535"
   },
   header: {
-    background: "#71c2fd61",
+    background: "#98cff761",
     textColor: "#383535"
   },
   footer: {
-    background: "#71c2fd61",
+    background: "#98cff761",
     textColor: "#383535"
   },
   section: {

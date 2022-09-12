@@ -1,35 +1,35 @@
 export default {
-  themeType: "girly",
+  themeType: "light",
   body: {
-    backgroundColor: "rgb(10 25 41)",
-    url: "../../Assets/Images/basketball.png",
-    textColor: "rgb(189, 189, 189);",
-    titleColor: "#fff",
-    subTitleColor: "#fff",
-    descColor: "rgb(189, 189, 189);"
+    backgroundColor: "#f3e5f5",
+    url: "../../Assets/Images/pinkFlowers.png",
+    textColor: "#58c121",
+    titleColor: "#276506",
+    subTitleColor: "#40a60a",
+    descColor: "#40a60a"
   },
   header: {
-    background: "rgba(10, 25, 41, 0.7)",
-    textColor: "rgb(158, 158, 158)"
+    background: "#ffc2cd",
+    textColor: "#318803"
   },
   footer: {
-    background: "rgba(10, 25, 41, 0.7)",
-    textColor: "rgb(158, 158, 158)"
+    background: "#ffc2cd",
+    textColor: "#318803"
   },
   section: {
-    titleColor: "#bf360c",
-    subTitleColor: "#e64a19",
-    descColor: "#ff8a65"
+    titleColor: "#276506",
+    subTitleColor: "#ce93d8",
+    descColor: "#383535"
   },
   link: {
-    textColor: "#42a5f5"
+    textColor: "#ab47bc"
   },
   button: {
-    background: "#e64a19",
-    textColor: "#fff"
+    background: "#ce93d8",
+    textColor: "#ab47bc"
   },
-  error: { color: "#d32f2f" },
-  warning: { color: "#f57c00" },
-  info: { color: "#0288d1" },
-  success: { color: "#388e3c" }
+  error: { color: "#f44336" },
+  warning: { color: "#ffa726" },
+  info: { color: "#29b6f6" },
+  success: { color: "#66bb6a" }
 };
