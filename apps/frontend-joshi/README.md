@@ -54,10 +54,8 @@ Status: 🌶️ In Progress
 - adjust cards, back button
 - design home page- about me, timeline, language and tools, future goals
 - feature sub route functionality, design subroutes page, with left menu
-- typescript, i18n, adjust theme
-- media queries
-
----
+- typescript, i18n, adjust theme, media queries
+- ***
 
 <div align="center">
   Feel free to ask any questions, open a PR if you feel something can be done differently!

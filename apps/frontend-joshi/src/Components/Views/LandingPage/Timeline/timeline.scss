@@ -22,16 +22,15 @@ $color6: #aff1b6;
   margin: 20 auto;
   position: relative;
   color: #525f7f;
-  margin: 0 50px;
 
   .timeline-title{
     font-size: $appSubTitleFontSize;
     margin: 30px auto;
   }
   .info-icon{
-    padding: 0;
-    margin-left: 40px;
-    padding: 10px;
+    align-self: baseline;
+    padding-top: 4px;
+    margin-left: auto;
   }
   &__event {
     margin-bottom: $spacing;
@@ -41,6 +40,9 @@ $color6: #aff1b6;
     border-radius: $bdrs;
     align-self: center;
     width: 70%;
+    @media only screen and (max-width: $mediaMobile767) {
+      width: 85%;
+    }
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
@@ -82,7 +84,7 @@ $color6: #aff1b6;
     }
 
     &__title {
-      font-size: 1.2rem;
+      font-size: $appFontSize1XLarge;
       line-height: 1.4;
       text-transform: uppercase;
 
@@ -92,6 +94,9 @@ $color6: #aff1b6;
       display: flex;
       justify-content: center;
       align-items: center;
+      @media only screen and (max-width: $mediaMobile767) {
+        font-size: $appFontSizeLarge;
+      }
     }
     &__content {
       padding: $spacing;
@@ -105,7 +110,7 @@ $color6: #aff1b6;
     }
     &__date {
       color: $color2;
-      font-size: 1.5rem;
+      font-size: $appFontSize2XLarge;
       font-weight: 600;
       background: $color1;
       display: flex;
@@ -114,6 +119,11 @@ $color6: #aff1b6;
       padding: 0 $spacing;
       border-radius: $bdrs 0 0 $bdrs;
       width: 200px;
+      @media only screen and (max-width: $mediaMobile767) {
+        width: initial;
+        font-size: 18px;
+
+      }
     }
     &__icon {
       display: flex;
@@ -164,6 +174,10 @@ $color6: #aff1b6;
     }
     &__description {
       flex-basis: 60%;
+      font-size: $appFontSizeMedium;
+      @media only screen and (max-width: $mediaMobile767) {
+        font-size: $appFontSizeSmall;
+      }
     }
 
     &--type2 {
