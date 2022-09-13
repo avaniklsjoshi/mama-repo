@@ -32,10 +32,18 @@
   }
 
   .container {
-    width: 90%;
     padding:5%;
-    margin: 0 auto;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    @media only screen and (max-width: $mediaMobile767) {
+      flex-direction: column;
+      .col {
+        width: 100%;
+        margin: 0;
+
+      }
+    }
   }
 
   .col {
