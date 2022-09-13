@@ -4,27 +4,30 @@
 
 .intro-container{
   padding: $spacing4d;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 10px;
+  display: flex;
   align-items: center;
   .intro-left{
-    grid-column: span 6;
     justify-self: flex-start;
-    grid-column-start: 1;
-    grid-column-end: span 6;
     .intro-title{
       font-size: $appTitleFontSize;
-
+      @media only screen and (max-width: $mediaMobile767) {
+        font-size: $appSubTitleFontSize;
+      }
     }
     .intro-desc{
       font-size: $appFontSize2XLarge;
       margin-top: $spacing8d;
+      @media only screen and (max-width: $mediaMobile767) {
+        font-size: $appFontSize1XLarge;
+      }
     }
   }
   .intro-right{
-    grid-column: span 6;
+    flex-grow: 1;
     justify-self: flex-start;
     justify-self: center;
+    @media only screen and (max-width: $mediaMobile767) {
+      display: none;
+    }
   }
 }

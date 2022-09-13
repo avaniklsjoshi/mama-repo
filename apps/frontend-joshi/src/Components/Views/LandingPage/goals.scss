@@ -12,4 +12,7 @@
         list-style-type: none;
 
     }
+    @media only screen and (max-width: $mediaMobile767) {
+        font-size: $appFontSizeMedium;
+    }
 }
