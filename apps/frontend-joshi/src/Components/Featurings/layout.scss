@@ -1,36 +1,29 @@
+@import "../../CommonStyles/variables.scss";
 
 .sub-route-container{
-    display: grid;
+    display: flex;
     flex: 1;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
 
     .left-bar{
-        grid-column: span 3;
         justify-self: flex-start;
         padding: 8px;
-        grid-column-start: 1;
-        grid-column-end: span 3;
-        width: 100%;
     }
     .right-bar{
-        grid-column: span 9;
         justify-self: flex-start;
         padding: 8px;
-
+        width: 100%;
     }
 }
 //-------- Left Menu Start ----------
+.left-drawer-menu-icon{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 .left-menu-box{
     text-align: initial;
     height: 100%;
     svg{
         fill:gray;
-    }
-
-    .left-drawer-menu-icon{
-        margin-left: 12px !important;
-
     }
     .left-drawer{
         div{
@@ -39,9 +32,12 @@
             position: relative;
             height: 100%;
             color: inherit;
-            padding-left: 6px;
+            padding-left: 0;
         }
 
     }
+}
+.menu-item{
+    min-width: max-content;
 }
 //-------- Left Menu End ----------
