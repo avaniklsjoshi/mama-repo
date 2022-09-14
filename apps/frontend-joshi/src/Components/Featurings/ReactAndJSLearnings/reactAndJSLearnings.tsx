@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Suspence from "./suspence";
 import Transition from "./transition";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";

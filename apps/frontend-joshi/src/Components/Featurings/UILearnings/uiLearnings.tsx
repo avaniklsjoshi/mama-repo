@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import BubbleEffect from "./bubbleEffect";
 import DesignerTitle from "./designerTitle";
 import Parallax from "./parallax";
