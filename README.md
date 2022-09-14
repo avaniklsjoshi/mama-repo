@@ -95,6 +95,9 @@ Remove node_modules from each part of app
 
 - `find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +`
 - `yarn`
+- `nvm install 18`
+- `nvm ls`
+- `nvm use 18`
 
 ---
 
