@@ -39,7 +39,7 @@ $color6: #aff1b6;
     margin: $spacing 0;
     border-radius: $bdrs;
     align-self: center;
-    width: 70%;
+    width: 66%;
     @media only screen and (max-width: $mediaMobile767) {
       width: 85%;
     }
@@ -119,7 +119,7 @@ $color6: #aff1b6;
       padding: 0 $spacing;
       border-radius: $bdrs 0 0 $bdrs;
       width: 200px;
-      @media only screen and (max-width: $mediaMobile767) {
+      @media only screen and (max-width: $mediaLSTabLowerBound959) {
         width: initial;
         font-size: 18px;
 

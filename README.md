@@ -104,7 +104,7 @@ Remove node_modules from each part of app
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
 - Pipeline, Docker, different environments stage prod qa
-- Microfrontends
+- Microfrontends, server side rendering
 - Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser
 - Optimisation, lighthouse chrome
 - npm package
