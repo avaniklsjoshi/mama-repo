@@ -8,6 +8,7 @@ Status: 🌶️ In Progress
 
 - write tests, storybook,
 - launch app may be with docker..
+- conventional commit and versioning
 - api fail UI, centralized loader, 118n backend
 - like and share card functionality
 - accessibility and dynamic font
