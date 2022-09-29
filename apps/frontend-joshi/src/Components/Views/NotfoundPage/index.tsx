@@ -7,13 +7,16 @@ import { ROUTES } from "../../../Configs/Constants/const";
 export default function NotFoundPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const docTitleName: any = t("docTitleName", {
+    returnObjects: true
+  });
 
   const handleHomeClick = () => {
     navigate(ROUTES.HOME);
   };
 
   useEffect(() => {
-    document.title = t("docTitleNameNotFound");
+    document.title = docTitleName["notFound"];
   });
 
   return (
@@ -21,8 +24,8 @@ export default function NotFoundPage() {
       <span className="info" />
       <div className="four-zero-four-bg"></div>
       <div className="lost-section">
-        <h3>Lost?</h3>
-        There&apos;s no place like
+        <h3>{t("notFoundTitle")}</h3>
+        {t("notFoundDesc")}
         <span className="link-404" onClick={handleHomeClick} aria-hidden="true">
           {t("home")}
         </span>

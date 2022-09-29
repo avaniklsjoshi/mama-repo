@@ -58,6 +58,12 @@ $distance: -1px;
     background: transparent;
     cursor: pointer;
     transition: all 1s;
+    &:hover{
+      span{
+        font-weight: 600;
+      }
+      color:white
+    }
 
     span {
       top: 15px;
@@ -70,9 +76,6 @@ $distance: -1px;
       left: 50%;
       transform: translate(-50%, -50%);
       min-width: max-content;
-      &:hover{
-        font-weight: 600;
-      }
     }
 
     .line {

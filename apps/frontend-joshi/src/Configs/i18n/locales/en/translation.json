@@ -7,9 +7,14 @@
   "copyrightText3": "by Avani Joshi",
   "copyrightStar": "Rights were given by a clever cat, called cat rights reserved 😎😺",
   "featuresRoute": "Features",
-  "docTitleNameHome": "Avani Joshi | Frontend Developer",
-  "docTitleNameFeatures": "Avani Joshi | Frontend Developer | Features",
-  "docTitleNameNotFound": "Avani Joshi | Frontend Developer | Page Not Found",
+  "docTitleName":{
+    "home":"Avani Joshi | Frontend Developer",
+    "features":"Avani Joshi | Frontend Developer | Features",
+    "admin":"Boss is Online 😈",
+    "notFound":"Avani Joshi | Frontend Developer | Page Not Found"
+  },
+  "notFoundTitle": "Lost?",
+  "notFoundDesc": "There's no place like",
   "home": "Home",
   "downloadPortfolio": "Download Portfolio",
   "cardMiscellaneousTitle":"Cool Stuff",

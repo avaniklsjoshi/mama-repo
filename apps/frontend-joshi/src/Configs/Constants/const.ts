@@ -44,6 +44,7 @@ export const DEFAULT_LANGUAGE = LANGUAGE_NAMES_KEY.ENGLISH;
 
 export enum ROUTES {
   HOME = "/",
+  ADMIN = "/admin",
   FEATURES = "/features",
   REACT_AND_JS_FEATURES = "/features/reactAndJSLearnings",
   UI_FEATURES = "/features/uiLearnings",
@@ -53,11 +54,6 @@ export enum ROUTES {
 export enum ROUTES_NAME_KEY {
   HOME = "",
   FEATURES = "featuresRoute"
-}
-export enum DOC_TITLE_NAME {
-  HOME = "Avani Joshi | Frontend Developer",
-  FEATURES = "Avani Joshi | Frontend Developer | Features",
-  NOT_FOUND = "Avani Joshi | Frontend Developer | Not Found"
 }
 
 export enum SOCIAL_LINKS {

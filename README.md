@@ -105,6 +105,7 @@ Remove node_modules from each part of app
 
 - Pipeline, Docker, different environments stage prod qa
 - Microfrontends, server side rendering
+- docusaurus
 - Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser
 - Optimisation, lighthouse chrome
 - npm package

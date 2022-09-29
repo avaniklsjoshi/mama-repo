@@ -8,6 +8,7 @@ import ReactAndJSLearnings from "../Components/Featurings/ReactAndJSLearnings/re
 import UILearnings from "../Components/Featurings/UILearnings/uiLearnings";
 import Footer from "../Components/Footer/footer";
 import Header from "../Components/Header/header";
+import AdminPage from "../Components/Views/AdminPage";
 import FeaturesPage from "../Components/Views/FeaturesPage";
 import LandingPage from "../Components/Views/LandingPage";
 import NotFoundPage from "../Components/Views/NotfoundPage";
@@ -71,6 +72,7 @@ function App() {
                       </Layout>
                     }
                   />
+                  <Route path={ROUTES.ADMIN} element={<AdminPage />} />
                   <Route path={ROUTES.NOT_FOUND} element={<NotFoundPage />} />
                 </Routes>
               </div>

@@ -10,9 +10,12 @@ import Timeline from "./Timeline/timeline";
 
 export default function LandingPage() {
   const { t } = useTranslation();
+  const docTitleName: any = t("docTitleName", {
+    returnObjects: true
+  });
 
   useEffect(() => {
-    document.title = t("docTitleNameHome");
+    document.title = docTitleName["home"];
   });
   return (
     <>

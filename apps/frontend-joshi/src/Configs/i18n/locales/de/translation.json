@@ -7,9 +7,14 @@
   "copyrightText3": "von Avani Joshi",
   "copyrightStar": "Rechte wurden von einer schlauen Katze vergeben, genannt Katzenrechte vorbehalten 😎😺",
   "featuresRoute": "Merkmale",
-  "docTitleNameHome": "Avani Joshi | Frontend Entwicklerin",
-  "docTitleNameFeatures": "Avani Joshi | Frontend Entwicklerin | Merkmale",
-  "docTitleNameNotFound": "Avani Joshi | Frontend Entwicklerin | Seite nicht gefunden",
+  "docTitleName":{
+    "home": "Avani Joshi | Frontend Entwicklerin",
+    "features": "Avani Joshi | Frontend Entwicklerin | Merkmale",
+    "admin": "Boss is Online 😈",
+    "notFound": "Avani Joshi | Frontend Entwicklerin | Seite nicht gefunden"
+  },
+  "notFoundTitle": "Verirrt?",
+  "notFoundDesc": "Es gibt keinen Ort wie ",
   "home": "Startseite",
   "downloadPortfolio": "Portfolio herunterladen",
   "cardMiscellaneousTitle":"Cooles Zeug",

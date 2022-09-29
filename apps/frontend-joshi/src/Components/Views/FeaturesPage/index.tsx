@@ -6,9 +6,12 @@ import Cards from "./cards";
 
 export default function FeaturesPage() {
   const { t } = useTranslation();
+  const docTitleName: any = t("docTitleName", {
+    returnObjects: true
+  });
 
   useEffect(() => {
-    document.title = t("docTitleNameFeatures");
+    document.title = docTitleName["features"];
   });
 
   return (
