@@ -9,6 +9,14 @@ Status: 🌶️ In Progress
 - write tests, storybook,
 - launch app may be with docker..
 - conventional commit and versioning
+- msw
+- Push notifications
+- device APIs
+- publish/subscribe
+- memory and resource mgmt
+- synchronous and async code in a multi threaded environment
+- asset loading
+- XSS, dOM API manupulation, XHR Request, HTTP Headers
 - api fail UI, centralized loader, 118n backend
 - like and share card functionality
 - accessibility and dynamic font
