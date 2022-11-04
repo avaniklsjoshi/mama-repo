@@ -1,5 +1,6 @@
 import { act, fireEvent, render, screen } from "@testing-library/react";
 import DownloadPortfolio from "./downloadPortfolio";
+import Footer from "./footer";
 import Social from "./social";
 
 jest.mock("react-i18next", () => ({
@@ -12,6 +13,14 @@ Object.assign(navigator, {
 });
 
 describe("Footer", () => {
+  it("Footer Component", () => {
+    render(<Footer />);
+    // const linkElement = screen.getByText(/downloadPortfolio/i);
+    // expect(linkElement).toBeInTheDocument();
+
+    // fireEvent.click(linkElement);
+  });
+
   it("renders DownloadPortfolio Component", () => {
     render(<DownloadPortfolio />);
     const linkElement = screen.getByText(/downloadPortfolio/i);
