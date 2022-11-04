@@ -6,10 +6,10 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- write tests, storybook,
+- write tests, storybook, `npm test -- --coverage`
 - launch app may be with docker..
 - conventional commit and versioning
-- msw
+- msw, swr
 - Push notifications
 - device APIs
 - publish/subscribe
