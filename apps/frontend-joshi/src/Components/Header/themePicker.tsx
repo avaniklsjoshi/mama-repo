@@ -40,6 +40,7 @@ export default function ThemePicker() {
         exclusive
         onChange={themeSlection}
         value={alignment.themeType}
+        data-testid="select-theme"
       >
         {THEME_ARRAY.map((theme: IThemeConfig, index: number) => (
           <ToggleButton value={theme.themeName} key={index}>

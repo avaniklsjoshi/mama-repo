@@ -1,7 +1,11 @@
+/* eslint-disable testing-library/no-node-access */
+/* eslint-disable testing-library/no-container */
 import { act, fireEvent, render, screen } from "@testing-library/react";
+import { ThemeProvider } from "styled-components";
 import DownloadPortfolio from "./downloadPortfolio";
 import Footer from "./footer";
 import Social from "./social";
+import girly from "../../Theme/themes/girly";
 
 jest.mock("react-i18next", () => ({
   useTranslation: () => ({ t: (key: any) => key })
@@ -14,11 +18,14 @@ Object.assign(navigator, {
 
 describe("Footer", () => {
   it("Footer Component", () => {
-    render(<Footer />);
-    // const linkElement = screen.getByText(/downloadPortfolio/i);
-    // expect(linkElement).toBeInTheDocument();
-
-    // fireEvent.click(linkElement);
+    const { container } = render(
+      <ThemeProvider theme={girly}>
+        <Footer />
+      </ThemeProvider>
+    );
+    expect(container).toMatchSnapshot();
+    const copyright = container.getElementsByClassName("copyright");
+    expect(copyright).toBeTruthy();
   });
 
   it("renders DownloadPortfolio Component", () => {
@@ -33,14 +40,13 @@ describe("Footer", () => {
     const { container } = render(<Social />);
     expect(container).toMatchSnapshot();
 
-    // eslint-disable-next-line testing-library/no-node-access, testing-library/no-container
     const boxes = container.getElementsByClassName("social-links");
     console.log(boxes.length);
     expect(boxes.length).toBe(4);
   });
 
   it("renders Social links Component share", () => {
-    const { container } = render(<Social />);
+    render(<Social />);
     const shareButton = screen.getByRole("button");
     expect(shareButton).toHaveClass("share-button");
     fireEvent.click(shareButton);

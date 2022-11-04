@@ -20,7 +20,12 @@ export default function Header() {
   return (
     <SC.HeaderContainer>
       <div className="header-container">
-        <div className="header-title" onClick={navigateHome} aria-hidden="true">
+        <div
+          className="header-title"
+          onClick={navigateHome}
+          aria-hidden="true"
+          data-testid="home-button"
+        >
           <SC.HeaderTitle>{t("avani")}</SC.HeaderTitle>
         </div>
         <div className="header-accessibilities">
@@ -30,6 +35,7 @@ export default function Header() {
               className="header-navigator"
               onClick={navigateToFeatures}
               aria-hidden="true"
+              data-testid="feature-button"
             >
               {t("featuresRoute")}
             </div>

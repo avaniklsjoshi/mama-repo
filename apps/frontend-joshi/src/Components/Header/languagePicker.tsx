@@ -20,6 +20,7 @@ export default function LanguagePicker() {
       defaultValue={DEFAULT_LANGUAGE}
       onChange={changeLanguageHandler}
       className="language-selectbox"
+      data-testid="language-select"
     >
       <MenuItem value={LANGUAGE_NAMES_KEY.HINDI}>
         {LANGUAGE_NAMES.HINDI}
