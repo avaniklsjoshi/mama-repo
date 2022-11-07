@@ -4,9 +4,11 @@ Status: 🌶️ In Progress
 
 ---
 
+`npm test -- --coverage`
+
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- write tests, storybook, `npm test -- --coverage`
+- storybook
 - launch app may be with docker..
 - conventional commit and versioning
 - msw, swr
@@ -19,7 +21,7 @@ Status: 🌶️ In Progress
 - XSS, dOM API manupulation, XHR Request, HTTP Headers
 - api fail UI, centralized loader, 118n backend
 - like and share card functionality
-- accessibility and dynamic font
+- accessibility
 - scroll loader at top
 - tell me a joke section, Meme Generator\*
 - Things to notice in the App
@@ -64,6 +66,7 @@ Status: 🌶️ In Progress
 - design home page- about me, timeline, language and tools, future goals
 - feature sub route functionality, design subroutes page, with left menu
 - typescript, i18n, adjust theme, media queries
+- tests
 
 ---
 

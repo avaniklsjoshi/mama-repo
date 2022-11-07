@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features Page Featurings: renders Features Page 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="left-menu-box MuiBox-root css-0"
+    style="text-align: initial; height: 100%;"
+  >
+    <div
+      class="PrivateHiddenCss-root PrivateHiddenCss-smUp css-od3h8q-PrivateHiddenCss-root"
+    />
+    <div
+      class="PrivateHiddenCss-root PrivateHiddenCss-xsDown css-1f8mm7w-PrivateHiddenCss-root"
+    >
+      <div
+        class="MuiDrawer-root MuiDrawer-docked left-drawer css-sc4n0q-MuiDrawer-docked"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            style="align-self: baseline; margin: 0px; padding: 0px;"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ChevronLeftIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+          />
+          <ul
+            class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          >
+            <li
+              class="MuiListItem-root MuiListItem-gutters menu-item css-1nxmd3h-MuiListItem-root"
+              data-testid="menu-click"
+            >
+              <div
+                class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                  >
+                    Parallax Effect
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-gutters menu-item css-1nxmd3h-MuiListItem-root"
+              data-testid="menu-click"
+            >
+              <div
+                class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                  >
+                    Bubble Effect
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-gutters menu-item css-1nxmd3h-MuiListItem-root"
+              data-testid="menu-click"
+            >
+              <div
+                class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+                  >
+                    Designer Title
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Features Page Featurings: renders Layout 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="sc-bczRLJ dxuRWx"
+  >
+    <div
+      class="sc-gsnTZi eLnOdR"
+    >
+      <a
+        class="back-link"
+        data-testid="back-link"
+        style="color: red;"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowBackIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+          />
+        </svg>
+        back
+      </a>
+    </div>
+    <div
+      class="sub-route-container"
+    >
+      <div
+        class="left-bar"
+      >
+        <div
+          class="left-menu-box MuiBox-root css-0"
+          style="text-align: initial; height: 100%;"
+        >
+          <div
+            class="PrivateHiddenCss-root PrivateHiddenCss-smUp css-od3h8q-PrivateHiddenCss-root"
+          />
+          <div
+            class="PrivateHiddenCss-root PrivateHiddenCss-xsDown css-1f8mm7w-PrivateHiddenCss-root"
+          >
+            <div
+              class="MuiDrawer-root MuiDrawer-docked left-drawer css-sc4n0q-MuiDrawer-docked"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                  style="align-self: baseline; margin: 0px; padding: 0px;"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronLeftIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <ul
+                  class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="right-bar"
+      >
+        <div
+          class="right-bar-title"
+        />
+        <div>
+          <h1>
+            Hi Avani!
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Features Page Featurings: renders Welcome Page 1`] = `
+<div>
+  <div>
+    Love you Joshi!
+  </div>
+</div>
+`;
