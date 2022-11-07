@@ -8,7 +8,7 @@ import Timeline from "../Timeline/timeline";
 jest.mock("react-i18next", () => ({
   useTranslation: () => ({
     t: (key: any) => key,
-    i18n: (language: any) => language
+    i18n: { language: "hn" }
   })
 }));
 

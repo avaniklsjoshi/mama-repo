@@ -60,20 +60,23 @@ export default function Menu(props: IMenu) {
       </IconButton>
       <Divider />
       <List>
-        {FEATURINGS[routeName as ObjectKey].menu.map(
-          (item: IComponentDetails, index: number) => (
-            <ListItem
-              className="menu-item"
-              disablePadding
-              key={index}
-              onClick={(e) => handleMenuClick(e, item)}
-            >
-              <ListItemButton>
-                <ListItemText primary={item.title} />
-              </ListItemButton>
-            </ListItem>
-          )
-        )}
+        {FEATURINGS[routeName as ObjectKey] &&
+          FEATURINGS[routeName as ObjectKey].menu &&
+          FEATURINGS[routeName as ObjectKey].menu.map(
+            (item: IComponentDetails, index: number) => (
+              <ListItem
+                className="menu-item"
+                disablePadding
+                key={index}
+                onClick={(e) => handleMenuClick(e, item)}
+                data-testid="menu-click"
+              >
+                <ListItemButton>
+                  <ListItemText primary={item.title} />
+                </ListItemButton>
+              </ListItem>
+            )
+          )}
       </List>
     </>
   );

@@ -10,12 +10,22 @@ import {
   Tooltip,
   Typography
 } from "@mui/material";
+import { string } from "prop-types";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { InfoIcon } from "../../../Assets/SVG/infoIcon";
 import { CARDS_LIST } from "../../../Configs/Constants/const";
+export interface ICards {
+  cardsList?: {
+    path: string;
+    title: string;
+    description: string;
+    thumbnail: string;
+    information: string;
+  }[];
+}
 
-export default function Cards() {
+export default function Cards({ cardsList = CARDS_LIST }: ICards) {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
@@ -34,19 +44,24 @@ export default function Cards() {
 
   return (
     <div className="feature-cards-conatainer">
-      {CARDS_LIST.map((card) => (
+      {cardsList.map((card) => (
         <div className="feature-card" key={card.path}>
           <Card
             className="feature-card-mui"
             sx={{ width: 400 }}
             onClick={(e) => handleCard(e, card.path)}
+            data-testid="feature-card-mui"
             id={card.path}
           >
             <CardHeader
               className="feature-cardheader"
               title={t(card.title)}
               action={
-                <Tooltip title={t(card.information)} onClick={handleInfo}>
+                <Tooltip
+                  title={t(card.information)}
+                  onClick={handleInfo}
+                  data-testid="info-card-mui"
+                >
                   <IconButton>
                     <InfoIcon className="feature-iicon" />
                   </IconButton>
@@ -67,10 +82,18 @@ export default function Cards() {
               </Typography>
             </CardContent>
             <div className="like-share-container">
-              <IconButton aria-label="add to favorites" onClick={handleLike}>
+              <IconButton
+                aria-label="add to favorites"
+                onClick={handleLike}
+                data-testid="feature-card-like-mui"
+              >
                 <FavoriteIcon />
               </IconButton>
-              <IconButton aria-label="share" onClick={handleShare}>
+              <IconButton
+                aria-label="share"
+                onClick={handleShare}
+                data-testid="feature-card-share-mui"
+              >
                 <ShareIcon />
               </IconButton>
             </div>
