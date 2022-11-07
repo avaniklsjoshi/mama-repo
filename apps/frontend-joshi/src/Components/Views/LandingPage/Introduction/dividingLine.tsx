@@ -1,6 +1,6 @@
 import "./subMarine.scss";
 
-export default function SubMarine() {
+export default function DividingLine() {
   return (
     <svg
       version="1.1"

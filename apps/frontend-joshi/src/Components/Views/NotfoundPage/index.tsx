@@ -26,7 +26,12 @@ export default function NotFoundPage() {
       <div className="lost-section">
         <h3>{t("notFoundTitle")}</h3>
         {t("notFoundDesc")}
-        <span className="link-404" onClick={handleHomeClick} aria-hidden="true">
+        <span
+          className="link-404"
+          onClick={handleHomeClick}
+          aria-hidden="true"
+          data-testid="home-link"
+        >
           {t("home")}
         </span>
       </div>

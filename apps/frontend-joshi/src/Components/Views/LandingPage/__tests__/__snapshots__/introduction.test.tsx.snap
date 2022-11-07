@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders Introduction 1`] = `
+<div>
+  <div
+    class="intro-container"
+  >
+    <div
+      class="intro-left"
+    >
+      <div
+        class="sc-gsnTZi kmpfjj intro-title"
+      >
+        AvaniIntroTitle
+      </div>
+      <div
+        class="intro-desc"
+      >
+        AvaniIntroDesc
+      </div>
+    </div>
+    <div
+      class="intro-right"
+    >
+      <div
+        class="sea"
+      >
+        <div
+          class="circle-wrapper"
+        >
+          <div
+            class="bubble"
+          />
+          <div
+            class="submarine-wrapper"
+          >
+            <div
+              class="submarine-body"
+            >
+              <div
+                class="window"
+              />
+              <div
+                class="engine"
+              />
+              <div
+                class="light"
+              />
+            </div>
+            <div
+              class="helix"
+            />
+            <div
+              class="hat"
+            >
+              <div
+                class="leds-wrapper"
+              >
+                <div
+                  class="periscope"
+                />
+                <div
+                  class="leds"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

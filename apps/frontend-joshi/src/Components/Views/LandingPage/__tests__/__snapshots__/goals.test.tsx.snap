@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders Goals 1`] = `
+<div>
+  <div
+    class="goals-container"
+  >
+    <div
+      class="sc-bczRLJ jliZnU goals-title"
+      data-testid="goals-title"
+    >
+      myInterests
+    </div>
+    <ul />
+  </div>
+</div>
+`;

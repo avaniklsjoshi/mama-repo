@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders Skills 1`] = `
+<div>
+  <div
+    class="skills-container"
+  >
+    <div
+      class="sc-bczRLJ jliZnU skills-title"
+    >
+      skills
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="col"
+      >
+        <h1
+          class="titulo"
+        >
+          techStack
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="blueline javascript"
+            />
+            <em>
+              Javascript
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline reactJS"
+            />
+            <em>
+              React JS
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline nodeJS"
+            />
+            <em>
+              NodeJS
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline html"
+            />
+            <em>
+              HTML
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline cssScss"
+            />
+            <em>
+              CSS & Scss
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline mongoDB"
+            />
+            <em>
+              MongoDB
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline docker"
+            />
+            <em>
+              Docker
+            </em>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col"
+      >
+        <h1
+          class="supporting titulo"
+        >
+          supporting
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="greenline typescript"
+            />
+            <em>
+              Typescript
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline reduxSaga"
+            />
+            <em>
+              Redux, Saga
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline styledComponents"
+            />
+            <em>
+              Styled Components
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline webpackVite"
+            />
+            <em>
+              Webpack, Vite
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline estsLint"
+            />
+            <em>
+              EsLint, TsLint
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline expressJS"
+            />
+            <em>
+              Express JS
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline jestTesting"
+            />
+            <em>
+              Unit Testing
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline storybook"
+            />
+            <em>
+              StoryBook
+            </em>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col"
+      >
+        <h1
+          class="tools titulo"
+        >
+          tools
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="redline vscode"
+            />
+            <em>
+              Visual Studio code
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline compass"
+            />
+            <em>
+              MongoDB Compass
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline sourcetree"
+            />
+            <em>
+              Source Tree
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline postman"
+            />
+            <em>
+              Postman
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline herokuMlab"
+            />
+            <em>
+              Heroku, MLab
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline xcode"
+            />
+            <em>
+              XCode
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline browsers"
+            />
+            <em>
+              Browsers
+            </em>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

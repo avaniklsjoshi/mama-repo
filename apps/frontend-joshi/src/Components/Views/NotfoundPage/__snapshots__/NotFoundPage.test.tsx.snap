@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Not Found Page renders NotFoundPage 1`] = `
+<div>
+  <div
+    class="page-404"
+  >
+    <span
+      class="info"
+    />
+    <div
+      class="four-zero-four-bg"
+    />
+    <div
+      class="lost-section"
+    >
+      <h3>
+        notFoundTitle
+      </h3>
+      notFoundDesc
+      <span
+        aria-hidden="true"
+        class="link-404"
+        data-testid="home-link"
+      >
+        home
+      </span>
+    </div>
+  </div>
+</div>
+`;

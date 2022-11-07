@@ -21,15 +21,12 @@ export default function Cards() {
 
   const handleLike = (e: React.SyntheticEvent) => {
     e.stopPropagation();
-    console.log("like clicked");
   };
   const handleShare = (e: React.SyntheticEvent) => {
     e.stopPropagation();
-    console.log("share clicked");
   };
   const handleInfo = (e: React.SyntheticEvent) => {
     e.stopPropagation();
-    console.log("info clicked");
   };
   const handleCard = (e: React.SyntheticEvent, path: string) => {
     navigate(path);

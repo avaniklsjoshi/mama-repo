@@ -41,7 +41,6 @@ describe("Footer", () => {
     expect(container).toMatchSnapshot();
 
     const boxes = container.getElementsByClassName("social-links");
-    console.log(boxes.length);
     expect(boxes.length).toBe(4);
   });
 

@@ -8,14 +8,13 @@ export default function Goals() {
 
   return (
     <div className="goals-container">
-      <SC.SkillsTitle className="goals-title">
+      <SC.SkillsTitle className="goals-title" data-testid="goals-title">
         {t("myInterests")}
       </SC.SkillsTitle>
 
       <ul>
-        {goals.map((text, index) => (
-          <li key={index}>{text}</li>
-        ))}
+        {Array.isArray(goals) &&
+          goals.map((text, index) => <li key={index}>{text}</li>)}
       </ul>
     </div>
   );

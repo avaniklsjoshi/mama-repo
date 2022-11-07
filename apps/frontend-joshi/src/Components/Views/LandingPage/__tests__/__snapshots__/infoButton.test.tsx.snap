@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders InfoButton with data 1`] = `
+<div>
+  <div
+    class="info-container"
+  >
+    <div
+      class="tech-container"
+    >
+      <div
+        class="info-title"
+      >
+        timelineInfoTitle
+         
+        timelineInfoTitleSingle
+        -
+      </div>
+      <ul>
+        <li>
+          Javascript
+        </li>
+      </ul>
+    </div>
+    <div
+      class="role-container"
+    >
+      <div
+        class="info-title"
+      >
+        timelineInfoRole
+         
+        timelineInfoTitleSingle
+        -
+      </div>
+      <ul>
+        <li>
+          Software Developer
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Landing Page renders InfoButton without data 1`] = `
+<div>
+  <div
+    class="info-container"
+  >
+    <div
+      class="tech-container"
+    >
+      <div
+        class="info-title"
+      >
+        timelineInfoTitle
+         
+        timelineInfoTitleSingle
+        -
+      </div>
+      <ul />
+    </div>
+    <div
+      class="role-container"
+    >
+      <div
+        class="info-title"
+      >
+        timelineInfoRole
+         
+        timelineInfoTitleSingle
+        -
+      </div>
+      <ul />
+    </div>
+  </div>
+</div>
+`;

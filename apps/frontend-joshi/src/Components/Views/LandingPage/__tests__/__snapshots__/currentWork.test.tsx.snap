@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders CurrentWork 1`] = `
+<div>
+  <div
+    class="current-work"
+  >
+    currentWorkTitle
+    <a
+      href="https://github.com/avaniklsjoshi/mama-repo"
+      rel="noopener noreferrer"
+      style="color: red;"
+      target="_blank"
+    >
+      followHere
+    </a>
+  </div>
+</div>
+`;

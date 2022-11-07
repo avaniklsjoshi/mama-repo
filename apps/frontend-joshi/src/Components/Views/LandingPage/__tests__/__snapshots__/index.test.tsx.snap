@@ -1,0 +1,943 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page renders LandingPage 1`] = `
+<div>
+  <div
+    class="intro-container"
+  >
+    <div
+      class="intro-left"
+    >
+      <div
+        class="sc-gsnTZi kmpfjj intro-title"
+      >
+        AvaniIntroTitle
+      </div>
+      <div
+        class="intro-desc"
+      >
+        AvaniIntroDesc
+      </div>
+    </div>
+    <div
+      class="intro-right"
+    >
+      <div
+        class="sea"
+      >
+        <div
+          class="circle-wrapper"
+        >
+          <div
+            class="bubble"
+          />
+          <div
+            class="submarine-wrapper"
+          >
+            <div
+              class="submarine-body"
+            >
+              <div
+                class="window"
+              />
+              <div
+                class="engine"
+              />
+              <div
+                class="light"
+              />
+            </div>
+            <div
+              class="helix"
+            />
+            <div
+              class="hat"
+            >
+              <div
+                class="leds-wrapper"
+              >
+                <div
+                  class="periscope"
+                />
+                <div
+                  class="leds"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg
+    class="lines-animating"
+    id="Layer_1"
+    version="1.1"
+    viewBox="0 0 1999.007 560"
+    x="0px"
+    xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    y="0px"
+  >
+    <path
+      class="line1"
+      d="M0,205.122c0,0,1.873-5.227,34.181,11.771 c34.482,18.143,59.697,52.119,93.893,71.865c58.23,33.623,127.729,35.703,192.193,20.418 c84.208-19.967,120.448-106.473,201.401-131.238c33.513-10.252,72.097-7.987,100.849,12.053 c13.948,9.722,25.016,23.027,38.729,33.078c41.312,30.281,101.44,28.432,150.36,28.432c58.764,0,1187.401,0,1187.401,0"
+      style="fill: none; stroke: #CA3532; stroke-width: 11; stroke-miterlimit: 10;"
+    />
+    <path
+      class="line2"
+      d="M7.622,68.997 c63.526,16.725,114.958,46.718,161.474,93.375c58.574,58.752,124.397,129.296,215.396,122.491 c36.201-2.707,69.877-18.493,104.376-29.793c92.193-30.198,191.378-28.556,288.366-26.362 c222.659,5.037,443.983,4.791,666.654,4.791c85.665,0,555.119,0,555.119,0"
+      style="fill: none; stroke: #21AEB8; stroke-width: 11; stroke-miterlimit: 10;"
+    />
+    <path
+      class="line3"
+      d="M10.628,398.243 c98.501,20.268,202.926,9.114,295.368-30.252c110.86-47.21,211.1-122.805,335.982-128.2c91.338-3.945,184.697,28.631,270.85,55.526 c52.736,15.855,159.623,42.183,257.969,42.183s828.21,0,828.21,0"
+      style="fill: none; stroke: #62AB38; stroke-width: 11; stroke-miterlimit: 10;"
+    />
+    <path
+      class="line4"
+      d="M3.753,344.931 c0,0,260.692-109.142,307.727-118.406c47.035-9.264,132.368-18.393,195.794,3.404s243.095,67.78,340.015,64.93 c96.92-2.851,204.513-72.49,236.582-89.594c32.069-17.104,65.547-14.766,143.225-14.766c77.679,0,771.911,0,771.911,0"
+      style="fill: none; stroke: #70357B; stroke-width: 11; stroke-miterlimit: 10;"
+    />
+  </svg>
+  <div
+    class="timeline"
+  >
+    <div
+      class="sc-bczRLJ jliZnU timeline-title"
+    >
+      timelineTitle
+    </div>
+    <div
+      class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+    >
+      <div
+        class="timeline__event__icon "
+      >
+        <i
+          class="lni-cake"
+        >
+          <img
+            alt="jiji"
+            src="../../../assets/Images/sauropod-svgrepo-com.svg"
+          />
+        </i>
+      </div>
+      <div
+        class="timeline__event__date"
+      >
+        12-09-2019 - अब तक
+      </div>
+      <div
+        class="timeline__event__content "
+      >
+        <div
+          class="timeline__event__title"
+        >
+          एटेक्चर जीएमबीएच, सॉफ्टवेयर डेवलपर
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium info-icon css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              height="14px"
+              id="Capa_1"
+              version="1.1"
+              viewBox="0 0 111.577 111.577"
+              width="14px"
+              x="0px"
+              xml:space="preserve"
+              y="0px"
+            >
+              <g>
+                <path
+                  d="M78.962,99.536l-1.559,6.373c-4.677,1.846-8.413,3.251-11.195,4.217c-2.785,0.969-6.021,1.451-9.708,1.451 c-5.662,0-10.066-1.387-13.207-4.142c-3.141-2.766-4.712-6.271-4.712-10.523c0-1.646,0.114-3.339,0.351-5.064 c0.239-1.727,0.619-3.672,1.139-5.846l5.845-20.688c0.52-1.981,0.962-3.858,1.316-5.633c0.359-1.764,0.532-3.387,0.532-4.848 c0-2.642-0.547-4.49-1.636-5.529c-1.089-1.036-3.167-1.562-6.252-1.562c-1.511,0-3.064,0.242-4.647,0.71 c-1.59,0.47-2.949,0.924-4.09,1.346l1.563-6.378c3.829-1.559,7.489-2.894,10.99-4.002c3.501-1.111,6.809-1.667,9.938-1.667 c5.623,0,9.962,1.359,13.009,4.077c3.047,2.72,4.57,6.246,4.57,10.591c0,0.899-0.1,2.483-0.315,4.747 c-0.21,2.269-0.601,4.348-1.171,6.239l-5.82,20.605c-0.477,1.655-0.906,3.547-1.279,5.676c-0.385,2.115-0.569,3.731-0.569,4.815 c0,2.736,0.61,4.604,1.833,5.597c1.232,0.993,3.354,1.487,6.368,1.487c1.415,0,3.025-0.251,4.814-0.744 C76.854,100.348,78.155,99.915,78.962,99.536z M80.438,13.03c0,3.59-1.353,6.656-4.072,9.177c-2.712,2.53-5.98,3.796-9.803,3.796 c-3.835,0-7.111-1.266-9.854-3.796c-2.738-2.522-4.11-5.587-4.11-9.177c0-3.583,1.372-6.654,4.11-9.207 C59.447,1.274,62.729,0,66.563,0c3.822,0,7.091,1.277,9.803,3.823C79.087,6.376,80.438,9.448,80.438,13.03z"
+                  fill="#2a272763"
+                />
+              </g>
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="timeline__event__description"
+        >
+          <p>
+            projects
+            - 
+            VW AutoSuche, VW Onehub, ING db GeldAutomat
+          </p>
+          <p>
+            role
+            - 
+            डिजाइनिंग आर्किटेक्चर, ऐप्स की बेसिक सेटिंग, इम्प्लीमेंटेशन
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+    >
+      <div
+        class="timeline__event__icon "
+      >
+        <i
+          class="lni-cake"
+        >
+          <img
+            alt="jiji"
+            src="../../../Assets/Images/flower-svgrepo-com.svg"
+          />
+        </i>
+      </div>
+      <div
+        class="timeline__event__date"
+      >
+        09/2017 – 05/2019
+      </div>
+      <div
+        class="timeline__event__content "
+      >
+        <div
+          class="timeline__event__title"
+        >
+          टिकटमास्टर, फ्रंटएंड डेवलपर
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium info-icon css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              height="14px"
+              id="Capa_1"
+              version="1.1"
+              viewBox="0 0 111.577 111.577"
+              width="14px"
+              x="0px"
+              xml:space="preserve"
+              y="0px"
+            >
+              <g>
+                <path
+                  d="M78.962,99.536l-1.559,6.373c-4.677,1.846-8.413,3.251-11.195,4.217c-2.785,0.969-6.021,1.451-9.708,1.451 c-5.662,0-10.066-1.387-13.207-4.142c-3.141-2.766-4.712-6.271-4.712-10.523c0-1.646,0.114-3.339,0.351-5.064 c0.239-1.727,0.619-3.672,1.139-5.846l5.845-20.688c0.52-1.981,0.962-3.858,1.316-5.633c0.359-1.764,0.532-3.387,0.532-4.848 c0-2.642-0.547-4.49-1.636-5.529c-1.089-1.036-3.167-1.562-6.252-1.562c-1.511,0-3.064,0.242-4.647,0.71 c-1.59,0.47-2.949,0.924-4.09,1.346l1.563-6.378c3.829-1.559,7.489-2.894,10.99-4.002c3.501-1.111,6.809-1.667,9.938-1.667 c5.623,0,9.962,1.359,13.009,4.077c3.047,2.72,4.57,6.246,4.57,10.591c0,0.899-0.1,2.483-0.315,4.747 c-0.21,2.269-0.601,4.348-1.171,6.239l-5.82,20.605c-0.477,1.655-0.906,3.547-1.279,5.676c-0.385,2.115-0.569,3.731-0.569,4.815 c0,2.736,0.61,4.604,1.833,5.597c1.232,0.993,3.354,1.487,6.368,1.487c1.415,0,3.025-0.251,4.814-0.744 C76.854,100.348,78.155,99.915,78.962,99.536z M80.438,13.03c0,3.59-1.353,6.656-4.072,9.177c-2.712,2.53-5.98,3.796-9.803,3.796 c-3.835,0-7.111-1.266-9.854-3.796c-2.738-2.522-4.11-5.587-4.11-9.177c0-3.583,1.372-6.654,4.11-9.207 C59.447,1.274,62.729,0,66.563,0c3.822,0,7.091,1.277,9.803,3.823C79.087,6.376,80.438,9.448,80.438,13.03z"
+                  fill="#2a272763"
+                />
+              </g>
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="timeline__event__description"
+        >
+          <p>
+            projects
+            - 
+            CMS, Virtual Venue
+          </p>
+          <p>
+            role
+            - 
+            डिवाइस और ब्राउज़र संगत ऐप्स बनाना
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+    >
+      <div
+        class="timeline__event__icon "
+      >
+        <i
+          class="lni-cake"
+        >
+          <img
+            alt="jiji"
+            src="../../Assets/Images/dinosaur-svgrepo-com.svg"
+          />
+        </i>
+      </div>
+      <div
+        class="timeline__event__date"
+      >
+        02/15 – 07/17
+      </div>
+      <div
+        class="timeline__event__content "
+      >
+        <div
+          class="timeline__event__title"
+        >
+          वेबसेनोर टेक्नोलॉजीज, फुलस्टैक डेवलपर
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium info-icon css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              height="14px"
+              id="Capa_1"
+              version="1.1"
+              viewBox="0 0 111.577 111.577"
+              width="14px"
+              x="0px"
+              xml:space="preserve"
+              y="0px"
+            >
+              <g>
+                <path
+                  d="M78.962,99.536l-1.559,6.373c-4.677,1.846-8.413,3.251-11.195,4.217c-2.785,0.969-6.021,1.451-9.708,1.451 c-5.662,0-10.066-1.387-13.207-4.142c-3.141-2.766-4.712-6.271-4.712-10.523c0-1.646,0.114-3.339,0.351-5.064 c0.239-1.727,0.619-3.672,1.139-5.846l5.845-20.688c0.52-1.981,0.962-3.858,1.316-5.633c0.359-1.764,0.532-3.387,0.532-4.848 c0-2.642-0.547-4.49-1.636-5.529c-1.089-1.036-3.167-1.562-6.252-1.562c-1.511,0-3.064,0.242-4.647,0.71 c-1.59,0.47-2.949,0.924-4.09,1.346l1.563-6.378c3.829-1.559,7.489-2.894,10.99-4.002c3.501-1.111,6.809-1.667,9.938-1.667 c5.623,0,9.962,1.359,13.009,4.077c3.047,2.72,4.57,6.246,4.57,10.591c0,0.899-0.1,2.483-0.315,4.747 c-0.21,2.269-0.601,4.348-1.171,6.239l-5.82,20.605c-0.477,1.655-0.906,3.547-1.279,5.676c-0.385,2.115-0.569,3.731-0.569,4.815 c0,2.736,0.61,4.604,1.833,5.597c1.232,0.993,3.354,1.487,6.368,1.487c1.415,0,3.025-0.251,4.814-0.744 C76.854,100.348,78.155,99.915,78.962,99.536z M80.438,13.03c0,3.59-1.353,6.656-4.072,9.177c-2.712,2.53-5.98,3.796-9.803,3.796 c-3.835,0-7.111-1.266-9.854-3.796c-2.738-2.522-4.11-5.587-4.11-9.177c0-3.583,1.372-6.654,4.11-9.207 C59.447,1.274,62.729,0,66.563,0c3.822,0,7.091,1.277,9.803,3.823C79.087,6.376,80.438,9.448,80.438,13.03z"
+                  fill="#2a272763"
+                />
+              </g>
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="timeline__event__description"
+        >
+          <p>
+            projects
+            - 
+            नोवा फ़ार्मा
+          </p>
+          <p>
+            role
+            - 
+            आवश्यकता एकत्र करना, डिजाइन करना और कार्यान्वयन करना.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+    >
+      <div
+        class="timeline__event__icon "
+      >
+        <i
+          class="lni-cake"
+        >
+          <img
+            alt="jiji"
+            src="../../Assets/Images/flower-green.svg"
+          />
+        </i>
+      </div>
+      <div
+        class="timeline__event__date"
+      >
+        09/14 – 12/14
+      </div>
+      <div
+        class="timeline__event__content "
+      >
+        <div
+          class="timeline__event__title"
+        >
+          इंफोसिस लिमिटेड, प्रशिक्षु
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium info-icon css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element="true"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              height="14px"
+              id="Capa_1"
+              version="1.1"
+              viewBox="0 0 111.577 111.577"
+              width="14px"
+              x="0px"
+              xml:space="preserve"
+              y="0px"
+            >
+              <g>
+                <path
+                  d="M78.962,99.536l-1.559,6.373c-4.677,1.846-8.413,3.251-11.195,4.217c-2.785,0.969-6.021,1.451-9.708,1.451 c-5.662,0-10.066-1.387-13.207-4.142c-3.141-2.766-4.712-6.271-4.712-10.523c0-1.646,0.114-3.339,0.351-5.064 c0.239-1.727,0.619-3.672,1.139-5.846l5.845-20.688c0.52-1.981,0.962-3.858,1.316-5.633c0.359-1.764,0.532-3.387,0.532-4.848 c0-2.642-0.547-4.49-1.636-5.529c-1.089-1.036-3.167-1.562-6.252-1.562c-1.511,0-3.064,0.242-4.647,0.71 c-1.59,0.47-2.949,0.924-4.09,1.346l1.563-6.378c3.829-1.559,7.489-2.894,10.99-4.002c3.501-1.111,6.809-1.667,9.938-1.667 c5.623,0,9.962,1.359,13.009,4.077c3.047,2.72,4.57,6.246,4.57,10.591c0,0.899-0.1,2.483-0.315,4.747 c-0.21,2.269-0.601,4.348-1.171,6.239l-5.82,20.605c-0.477,1.655-0.906,3.547-1.279,5.676c-0.385,2.115-0.569,3.731-0.569,4.815 c0,2.736,0.61,4.604,1.833,5.597c1.232,0.993,3.354,1.487,6.368,1.487c1.415,0,3.025-0.251,4.814-0.744 C76.854,100.348,78.155,99.915,78.962,99.536z M80.438,13.03c0,3.59-1.353,6.656-4.072,9.177c-2.712,2.53-5.98,3.796-9.803,3.796 c-3.835,0-7.111-1.266-9.854-3.796c-2.738-2.522-4.11-5.587-4.11-9.177c0-3.583,1.372-6.654,4.11-9.207 C59.447,1.274,62.729,0,66.563,0c3.822,0,7.091,1.277,9.803,3.823C79.087,6.376,80.438,9.448,80.438,13.03z"
+                  fill="#2a272763"
+                />
+              </g>
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="timeline__event__description"
+        >
+          <p>
+            projects
+            - 
+            शॉपिंग पोर्टल
+          </p>
+          <p>
+            role
+            - 
+            Microsoft .NET तकनीक सीखना
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="skills-container"
+  >
+    <div
+      class="sc-bczRLJ jliZnU skills-title"
+    >
+      skills
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="col"
+      >
+        <h1
+          class="titulo"
+        >
+          techStack
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="blueline javascript"
+            />
+            <em>
+              Javascript
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline reactJS"
+            />
+            <em>
+              React JS
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline nodeJS"
+            />
+            <em>
+              NodeJS
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline html"
+            />
+            <em>
+              HTML
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline cssScss"
+            />
+            <em>
+              CSS & Scss
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline mongoDB"
+            />
+            <em>
+              MongoDB
+            </em>
+          </li>
+          <li>
+            <span
+              class="blueline docker"
+            />
+            <em>
+              Docker
+            </em>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col"
+      >
+        <h1
+          class="supporting titulo"
+        >
+          supporting
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="greenline typescript"
+            />
+            <em>
+              Typescript
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline reduxSaga"
+            />
+            <em>
+              Redux, Saga
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline styledComponents"
+            />
+            <em>
+              Styled Components
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline webpackVite"
+            />
+            <em>
+              Webpack, Vite
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline estsLint"
+            />
+            <em>
+              EsLint, TsLint
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline expressJS"
+            />
+            <em>
+              Express JS
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline jestTesting"
+            />
+            <em>
+              Unit Testing
+            </em>
+          </li>
+          <li>
+            <span
+              class="greenline storybook"
+            />
+            <em>
+              StoryBook
+            </em>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="col"
+      >
+        <h1
+          class="tools titulo"
+        >
+          tools
+        </h1>
+        <ul
+          class="skill"
+        >
+          <li>
+            <span
+              class="redline vscode"
+            />
+            <em>
+              Visual Studio code
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline compass"
+            />
+            <em>
+              MongoDB Compass
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline sourcetree"
+            />
+            <em>
+              Source Tree
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline postman"
+            />
+            <em>
+              Postman
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline herokuMlab"
+            />
+            <em>
+              Heroku, MLab
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline xcode"
+            />
+            <em>
+              XCode
+            </em>
+          </li>
+          <li>
+            <span
+              class="redline browsers"
+            />
+            <em>
+              Browsers
+            </em>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    class="goals-container"
+  >
+    <div
+      class="sc-bczRLJ jliZnU goals-title"
+      data-testid="goals-title"
+    >
+      myInterests
+    </div>
+    <ul />
+  </div>
+  <div
+    class="current-work"
+  >
+    currentWorkTitle
+    <a
+      href="https://github.com/avaniklsjoshi/mama-repo"
+      rel="noopener noreferrer"
+      style="color: red;"
+      target="_blank"
+    >
+      followHere
+    </a>
+  </div>
+  <div
+    class="portfolio-container"
+  >
+    <div
+      class="card card"
+    >
+      <div
+        class="border"
+      >
+        <div
+          class="card-name"
+        >
+          fullName
+        </div>
+        <div
+          class="icons"
+        >
+          <div>
+            <a
+              aria-label="Twitter Avani"
+              class="social-links"
+              href="https://twitter.com/avaniklsjoshi/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="24px"
+                id="Capa_1"
+                version="1.1"
+                viewBox="0 0 512 512"
+                width="24px"
+                x="0px"
+                y="0px"
+              >
+                <path
+                  d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016  c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992  c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056  c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152  c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792  c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44  C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568  C480.224,136.96,497.728,118.496,512,97.248z"
+                  fill="#03A9F4"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="LinkedIn Avani"
+              class="social-links"
+              href="https://www.linkedin.com/in/avani-joshi-6365b887/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="#0077b5"
+                >
+                  <path
+                    d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"
+                  />
+                  <path
+                    d="m.396 7.977h4.976v16.023h-4.976z"
+                  />
+                  <path
+                    d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a
+              aria-label="github Avani"
+              class="social-links"
+              href="https://github.com/avaniklsjoshi"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
+                  fill="#212121"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="gitlab Avani"
+              class="social-links"
+              href="https://gitlab.com/avaniklsjoshi"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="24px"
+                version="1.1"
+                viewBox="0 0 210 194"
+                width="24px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                >
+                  <g
+                    id="Fill-1-+-Group-24"
+                  >
+                    <g
+                      id="Group-24"
+                    >
+                      <g
+                        id="Group"
+                      >
+                        <path
+                          d="M105.0614,193.655 L105.0614,193.655 L143.7014,74.734 L66.4214,74.734 L105.0614,193.655 L105.0614,193.655 Z"
+                          fill="#E24329"
+                          id="Fill-4"
+                        />
+                        <path
+                          fill="#FC6D26"
+                          id="Fill-6"
+                        />
+                        <path
+                          d="M105.0614,193.6548 L66.4214,74.7338 L12.2684,74.7338 L105.0614,193.6548 Z"
+                          fill="#FC6D26"
+                          id="Fill-8"
+                        />
+                        <path
+                          fill="#FC6D26"
+                          id="Fill-10"
+                        />
+                        <path
+                          d="M12.2685,74.7341 L12.2685,74.7341 L0.5265,110.8731 C-0.5445,114.1691 0.6285,117.7801 3.4325,119.8171 L105.0615,193.6551 L12.2685,74.7341 Z"
+                          fill="#FCA326"
+                          id="Fill-12"
+                        />
+                        <path
+                          fill="#FC6D26"
+                          id="Fill-14"
+                        />
+                        <path
+                          d="M12.2685,74.7342 L66.4215,74.7342 L43.1485,3.1092 C41.9515,-0.5768 36.7375,-0.5758 35.5405,3.1092 L12.2685,74.7342 Z"
+                          fill="#E24329"
+                          id="Fill-16"
+                        />
+                        <path
+                          d="M105.0614,193.6548 L143.7014,74.7338 L197.8544,74.7338 L105.0614,193.6548 Z"
+                          fill="#FC6D26"
+                          id="Fill-18"
+                        />
+                        <path
+                          d="M197.8544,74.7341 L197.8544,74.7341 L209.5964,110.8731 C210.6674,114.1691 209.4944,117.7801 206.6904,119.8171 L105.0614,193.6551 L197.8544,74.7341 Z"
+                          fill="#FCA326"
+                          id="Fill-20"
+                        />
+                        <path
+                          d="M197.8544,74.7342 L143.7014,74.7342 L166.9744,3.1092 C168.1714,-0.5768 173.3854,-0.5758 174.5824,3.1092 L197.8544,74.7342 Z"
+                          fill="#E24329"
+                          id="Fill-22"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <button
+              aria-label="🎉 Link Copied!"
+              class="share-button"
+              data-mui-internal-clone-element="true"
+            >
+              <svg
+                height="24px"
+                viewBox="0 0 64 64"
+                width="24px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <lineargradient
+                  gradientUnits="userSpaceOnUse"
+                  id="qleorMOLqjiXYpxSjD5yKd"
+                  spreadMethod="reflect"
+                  x1="32.001"
+                  x2="32.001"
+                  y1="53.501"
+                  y2="10.5"
+                >
+                  <stop
+                    offset="0"
+                    stop-color="#37ab6a"
+                  />
+                  <stop
+                    offset=".422"
+                    stop-color="#39b66f"
+                  />
+                  <stop
+                    offset="1"
+                    stop-color="#3ac074"
+                  />
+                </lineargradient>
+                <path
+                  d="M48.996,53.501c-0.676,0-1.362-0.153-2.009-0.476l-34-17C11.463,35.263,10.5,33.704,10.5,32 c0-1.704,0.963-3.263,2.487-4.025l34-17c2.226-1.109,4.926-0.21,6.038,2.013c1.111,2.223,0.21,4.926-2.013,6.038L25.062,32 l25.95,12.975c2.223,1.112,3.124,3.815,2.013,6.038C52.236,52.589,50.647,53.501,48.996,53.501z"
+                  fill="url(#qleorMOLqjiXYpxSjD5yKd)"
+                />
+                <lineargradient
+                  gradientUnits="userSpaceOnUse"
+                  id="qleorMOLqjiXYpxSjD5yKe"
+                  spreadMethod="reflect"
+                  x1="15"
+                  x2="15"
+                  y1="23"
+                  y2="41"
+                >
+                  <stop
+                    offset="0"
+                    stop-color="#62de8f"
+                  />
+                  <stop
+                    offset=".478"
+                    stop-color="#5dd18d"
+                  />
+                  <stop
+                    offset="1"
+                    stop-color="#56be89"
+                  />
+                </lineargradient>
+                <path
+                  d="M24,32c0,4.972-4.028,9-9,9s-9-4.028-9-9s4.028-9,9-9S24,27.028,24,32z"
+                  fill="url(#qleorMOLqjiXYpxSjD5yKe)"
+                />
+                <lineargradient
+                  gradientUnits="userSpaceOnUse"
+                  id="qleorMOLqjiXYpxSjD5yKf"
+                  spreadMethod="reflect"
+                  x1="49"
+                  x2="49"
+                  y1="6"
+                  y2="24"
+                >
+                  <stop
+                    offset="0"
+                    stop-color="#62de8f"
+                  />
+                  <stop
+                    offset=".478"
+                    stop-color="#5dd18d"
+                  />
+                  <stop
+                    offset="1"
+                    stop-color="#56be89"
+                  />
+                </lineargradient>
+                <path
+                  d="M58,15c0,4.972-4.028,9-9,9s-9-4.028-9-9s4.028-9,9-9S58,10.028,58,15z"
+                  fill="url(#qleorMOLqjiXYpxSjD5yKf)"
+                />
+                <lineargradient
+                  gradientUnits="userSpaceOnUse"
+                  id="qleorMOLqjiXYpxSjD5yKg"
+                  spreadMethod="reflect"
+                  x1="49"
+                  x2="49"
+                  y1="40"
+                  y2="58"
+                >
+                  <stop
+                    offset="0"
+                    stop-color="#62de8f"
+                  />
+                  <stop
+                    offset=".478"
+                    stop-color="#5dd18d"
+                  />
+                  <stop
+                    offset="1"
+                    stop-color="#56be89"
+                  />
+                </lineargradient>
+                <path
+                  d="M58,49c0,4.972-4.028,9-9,9s-9-4.028-9-9s4.028-9,9-9S58,44.028,58,49z"
+                  fill="url(#qleorMOLqjiXYpxSjD5yKg)"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

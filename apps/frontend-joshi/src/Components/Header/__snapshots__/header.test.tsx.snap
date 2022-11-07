@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders Header 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ hMWBre"
+  >
+    <div
+      class="header-container"
+    >
+      <div
+        aria-hidden="true"
+        class="header-title"
+        data-testid="home-button"
+      >
+        <div
+          class="sc-gsnTZi kmpfjj"
+        >
+          avani
+        </div>
+      </div>
+      <div
+        class="header-accessibilities"
+      >
+        <div
+          class="theme-picker"
+        >
+          <div
+            class="MuiToggleButtonGroup-root css-1gjgmky-MuiToggleButtonGroup-root"
+            data-testid="select-theme"
+            role="group"
+          >
+            <button
+              aria-pressed="false"
+              class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+              tabindex="0"
+              type="button"
+              value="girly"
+            >
+              <img
+                alt="theme logo"
+                class="box-image"
+                src="colorMode.png"
+              />
+              <div
+                class="img-back"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-pressed="false"
+              class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+              tabindex="0"
+              type="button"
+              value="light"
+            >
+              <img
+                alt="theme logo"
+                class="box-image"
+                src="dayMode.png"
+              />
+              <div
+                class="img-back"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-pressed="true"
+              class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+              tabindex="0"
+              type="button"
+              value="dark"
+            >
+              <img
+                alt="theme logo"
+                class="box-image"
+                src="nightMode.png"
+              />
+              <div
+                class="img-back"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="feature-language"
+        >
+          <div
+            aria-hidden="true"
+            class="header-navigator"
+            data-testid="feature-button"
+          >
+            featuresRoute
+          </div>
+          <div
+            class="header-lang-picker"
+          >
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary language-selectbox css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+              data-testid="language-select"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="language-select"
+                class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                id="language-select"
+                role="button"
+                tabindex="0"
+              >
+                English
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                tabindex="-1"
+                value="en"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden="true"
+                class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="css-hdw1oc"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders Header LanguagePicker 1`] = `
+<div>
+  <div
+    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary language-selectbox css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+    data-testid="language-select"
+  >
+    <div
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-labelledby="language-select"
+      class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+      id="language-select"
+      role="button"
+      tabindex="0"
+    >
+      English
+    </div>
+    <input
+      aria-hidden="true"
+      class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+      tabindex="-1"
+      value="en"
+    />
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+      data-testid="ArrowDropDownIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M7 10l5 5 5-5z"
+      />
+    </svg>
+    <fieldset
+      aria-hidden="true"
+      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+    >
+      <legend
+        class="css-hdw1oc"
+      >
+        <span
+          class="notranslate"
+        >
+          ​
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Header renders Header ThemePicker 1`] = `
+<div>
+  <div
+    class="theme-picker"
+  >
+    <div
+      class="MuiToggleButtonGroup-root css-1gjgmky-MuiToggleButtonGroup-root"
+      data-testid="select-theme"
+      role="group"
+    >
+      <button
+        aria-pressed="false"
+        class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+        tabindex="0"
+        type="button"
+        value="girly"
+      >
+        <img
+          alt="theme logo"
+          class="box-image"
+          src="colorMode.png"
+        />
+        <div
+          class="img-back"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-pressed="false"
+        class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+        tabindex="0"
+        type="button"
+        value="light"
+      >
+        <img
+          alt="theme logo"
+          class="box-image"
+          src="dayMode.png"
+        />
+        <div
+          class="img-back"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-pressed="true"
+        class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-primary MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-d9c359-MuiButtonBase-root-MuiToggleButton-root"
+        tabindex="0"
+        type="button"
+        value="dark"
+      >
+        <img
+          alt="theme logo"
+          class="box-image"
+          src="nightMode.png"
+        />
+        <div
+          class="img-back"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

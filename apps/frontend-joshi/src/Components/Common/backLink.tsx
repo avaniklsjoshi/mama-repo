@@ -14,7 +14,7 @@ export default function BackLink() {
   };
   return (
     <LinkContainer>
-      <Link className="back-link" onClick={handleBack}>
+      <Link className="back-link" onClick={handleBack} data-testid="back-link">
         <ArrowBackIcon />
         {t("back")}
       </Link>
