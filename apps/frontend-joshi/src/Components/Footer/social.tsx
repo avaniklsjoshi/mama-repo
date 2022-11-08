@@ -1,23 +1,12 @@
-import { Tooltip } from "@mui/material";
-import { useState } from "react";
 import { Github } from "../../Assets/SVG/Github";
 import { Gitlab } from "../../Assets/SVG/Gitlab";
 import { LinkedIn } from "../../Assets/SVG/LinkedIn";
-import { Share } from "../../Assets/SVG/Share";
 import { Twitter } from "../../Assets/SVG/Twitter";
 import { SOCIAL_LINKS } from "../../Configs/Constants/const";
+import Share from "../Common/share";
 import "./footer.scss";
 
 export default function Social() {
-  const [open, setOpen] = useState(false);
-
-  const handleShare = () => {
-    navigator.clipboard.writeText(window.location.href);
-    setOpen(true);
-    setTimeout(() => {
-      setOpen(false);
-    }, 3000);
-  };
   return (
     <div>
       <a
@@ -56,20 +45,7 @@ export default function Social() {
       >
         <Gitlab />
       </a>
-      <Tooltip
-        PopperProps={{
-          disablePortal: true
-        }}
-        open={open}
-        disableFocusListener
-        disableHoverListener
-        disableTouchListener
-        title="🎉 Link Copied!"
-      >
-        <button onClick={handleShare} className="share-button">
-          <Share />
-        </button>
-      </Tooltip>
+      <Share />
     </div>
   );
 }

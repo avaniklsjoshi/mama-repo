@@ -15,6 +15,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { InfoIcon } from "../../../Assets/SVG/infoIcon";
 import { CARDS_LIST } from "../../../Configs/Constants/const";
+import Share from "../../Common/share";
 export interface ICards {
   cardsList?: {
     path: string;
@@ -30,9 +31,6 @@ export default function Cards({ cardsList = CARDS_LIST }: ICards) {
   const { t } = useTranslation();
 
   const handleLike = (e: React.SyntheticEvent) => {
-    e.stopPropagation();
-  };
-  const handleShare = (e: React.SyntheticEvent) => {
     e.stopPropagation();
   };
   const handleInfo = (e: React.SyntheticEvent) => {
@@ -91,10 +89,9 @@ export default function Cards({ cardsList = CARDS_LIST }: ICards) {
               </IconButton>
               <IconButton
                 aria-label="share"
-                onClick={handleShare}
                 data-testid="feature-card-share-mui"
               >
-                <ShareIcon />
+                <Share />
               </IconButton>
             </div>
           </Card>

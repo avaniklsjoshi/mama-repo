@@ -19,11 +19,11 @@ Status: 🌶️ In Progress
 - asset loading
 - XSS, dOM API manupulation, XHR Request, HTTP Headers
 - api fail UI, centralized loader, 118n backend
-- like and share card functionality
+- like card functionality
 - accessibility
 - scroll loader at top
 - tell me a joke section, Meme Generator\*
-- Things to notice in the App
+- Things to notice in the App section
 - Real-Time Chat, Music Player\*
 - Personal Blog\*
 - Photo Gallery App with Search Option(might use some AI APIs)\*

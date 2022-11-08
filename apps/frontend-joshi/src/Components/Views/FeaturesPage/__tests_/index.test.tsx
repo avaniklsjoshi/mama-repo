@@ -60,8 +60,6 @@ describe("Features Page", () => {
     fireEvent.click(cardButton);
     const likeButton = screen.getByTestId("feature-card-like-mui");
     fireEvent.click(likeButton);
-    const shareButton = screen.getByTestId("feature-card-share-mui");
-    fireEvent.click(shareButton);
     const infoButton = screen.getByTestId("info-card-mui");
     fireEvent.click(infoButton);
   });
