@@ -1,7 +1,6 @@
-import { boolean, number, text, withKnobs } from "@storybook/addon-knobs";
+import { withKnobs } from "@storybook/addon-knobs";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { userEvent, within } from "@storybook/testing-library";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import NotFoundPage from "./index";
 
@@ -14,7 +13,6 @@ export default {
   }
 } as ComponentMeta<typeof NotFoundPage>;
 
-const activeComponent = function () {};
 const Template: ComponentStory<typeof NotFoundPage> = () => (
   <BrowserRouter>
     <NotFoundPage />

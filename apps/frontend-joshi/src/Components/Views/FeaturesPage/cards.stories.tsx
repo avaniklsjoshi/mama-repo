@@ -1,6 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { userEvent, within } from "@storybook/testing-library";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import Cards from "./cards";
 
@@ -13,7 +12,17 @@ export default {
 } as ComponentMeta<typeof Cards>;
 const Template: ComponentStory<typeof Cards> = () => (
   <BrowserRouter>
-    <Cards />
+    <Cards
+      cardsList={[
+        {
+          path: "miscellaneousCoolStuff",
+          title: "cardMiscellaneousTitle",
+          description: "cardMiscellaneousDescription",
+          thumbnail: "../../Assets/Images/launch.png",
+          information: "cardMiscellaneousInformation"
+        }
+      ]}
+    />
   </BrowserRouter>
 );
 

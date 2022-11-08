@@ -1,6 +1,5 @@
 import "./app.scss";
 import { useEffect, useReducer } from "react";
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import Layout from "../Components/Featurings/layout";

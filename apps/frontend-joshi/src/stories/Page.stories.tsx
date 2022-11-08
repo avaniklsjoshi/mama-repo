@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { userEvent, within } from "@storybook/testing-library";
-import React from "react";
+import { within } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { Page } from "./Page";
 
 export default {

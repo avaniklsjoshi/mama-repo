@@ -1,7 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { userEvent, within } from "@storybook/testing-library";
 
-import LanguagePicker from "./languagePicker";
+import LanguagePicker from "../languagePicker";
 
 export default {
   component: LanguagePicker,
