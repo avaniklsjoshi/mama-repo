@@ -8,7 +8,6 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- storybook
 - launch app may be with docker..
 - conventional commit and versioning
 - msw, swr
@@ -66,7 +65,7 @@ Status: 🌶️ In Progress
 - design home page- about me, timeline, language and tools, future goals
 - feature sub route functionality, design subroutes page, with left menu
 - typescript, i18n, adjust theme, media queries
-- tests
+- tests, storybook
 
 ---
 
