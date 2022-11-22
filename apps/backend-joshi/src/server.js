@@ -21,7 +21,7 @@ app.use(morgan("combined"));
 
 // get driver connection
 const dbo = require("./configs/db/conn");
-app.use("/", require("./routes/hello"));
+app.use("/", require("./api/routes/hello"));
 
 app.listen(port, () => {
 	// perform a database connection when server starts

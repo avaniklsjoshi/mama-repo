@@ -12,11 +12,12 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
+- logger, typescript, eslint, , husky
+- Rest API's
 - launch.json
 - globalisation
 - Authentication
-- logger
-- Rest API's
+- versioning, swagger or docusaurus
 - streaming, Iot, chat
 - Pipeline, Docker, different environments stage prod qa
 - Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser, web security
@@ -31,7 +32,7 @@ Status: 🌶️ In Progress
 - eslint
 - test example added
 - mongodb connection established, data served to frontend
-- hot reloading
+- hot reloading, folder structure update
 
 ---
 
