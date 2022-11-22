@@ -7,12 +7,13 @@ Status: 🌶️ In Progress
 - npm start
 - http://localhost:9000
 - http://localhost:9000/record
+- start build- `npm run build && node build/index.js` or `npm run start-build`
 
 ---
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- logger, typescript
+- logger
 - Rest API's
 - launch.json
 - globalisation
@@ -32,7 +33,7 @@ Status: 🌶️ In Progress
 - eslint
 - test example added
 - mongodb connection established, data served to frontend
-- hot reloading, folder structure update
+- hot reloading, folder structure update, typescript
 
 ---
 
