@@ -12,7 +12,7 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- logger, typescript, eslint, , husky
+- logger, typescript
 - Rest API's
 - launch.json
 - globalisation
