@@ -14,11 +14,14 @@ Status: 🌶️ In Progress
 
 - launch.json
 - globalisation
-- web security
 - Authentication
+- logger
+- Rest API's
+- streaming, Iot, chat
 - Pipeline, Docker, different environments stage prod qa
-- Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser
+- Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser, web security
 - Optimisation
+- microservises
 
 <h2>Already implemented features :tada: </h2>
 
@@ -28,6 +31,7 @@ Status: 🌶️ In Progress
 - eslint
 - test example added
 - mongodb connection established, data served to frontend
+- hot reloading
 
 ---
 

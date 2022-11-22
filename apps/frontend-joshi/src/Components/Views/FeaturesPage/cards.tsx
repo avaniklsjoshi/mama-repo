@@ -1,6 +1,5 @@
 import "./feature.scss";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
 import {
   Card,
   CardContent,
@@ -10,7 +9,6 @@ import {
   Tooltip,
   Typography
 } from "@mui/material";
-import { string } from "prop-types";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { InfoIcon } from "../../../Assets/SVG/infoIcon";

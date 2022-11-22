@@ -8,6 +8,7 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
+- api fail UI, centralized loader, 118n backend
 - launch app may be with docker..
 - conventional commit and versioning
 - msw, swr
@@ -18,8 +19,6 @@ Status: 🌶️ In Progress
 - synchronous and async code in a multi threaded environment
 - asset loading
 - XSS, dOM API manupulation, XHR Request, HTTP Headers
-- api fail UI, centralized loader, 118n backend
-- like card functionality
 - accessibility
 - scroll loader at top
 - tell me a joke section, Meme Generator\*
@@ -66,6 +65,7 @@ Status: 🌶️ In Progress
 - feature sub route functionality, design subroutes page, with left menu
 - typescript, i18n, adjust theme, media queries
 - tests, storybook
+- like card functionality
 
 ---
 
