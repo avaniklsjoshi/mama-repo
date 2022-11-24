@@ -13,7 +13,6 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- logger
 - Rest API's
 - launch.json
 - globalisation
@@ -34,6 +33,7 @@ Status: 🌶️ In Progress
 - test example added
 - mongodb connection established, data served to frontend
 - hot reloading, folder structure update, typescript
+- logger
 
 ---
 

@@ -1,0 +1,3 @@
+logger.error("Error log msg");
+logger.debug("Debug log msg");
+logger.warn("Warning log msg");
