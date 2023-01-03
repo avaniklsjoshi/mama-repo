@@ -13,7 +13,7 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
-- Rest API's
+- Rest API's, routes
 - launch.json
 - globalisation
 - Authentication
