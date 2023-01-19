@@ -14,15 +14,27 @@ Status: 🌶️ In Progress
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
 - Rest API's, routes
+- ts
+- http/https protocols
+- hashing, CORS
 - launch.json
 - globalisation
 - Authentication
+- cookies
+- error handling
+- async programming- callback, async-await, process.nextTick, settimeout, setinterval
+- caching- node cache, distributed caching, memory cache
+- testing
 - versioning, swagger or docusaurus
-- streaming, Iot, chat
+- libraries- async.js, pm2, commander.js
+- streaming, Iot, chat-socket.io
 - Pipeline, Docker, different environments stage prod qa
 - Webpack/vite settings- chunking, compression, publish, Profiling, bundle analyser, web security
 - Optimisation
-- microservises
+- microservises- message broker
+- task scheduling- agenda
+- design pattern- factory, prototype
+- web assembly
 
 <h2>Already implemented features :tada: </h2>
 
