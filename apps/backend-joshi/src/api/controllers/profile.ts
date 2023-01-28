@@ -14,7 +14,7 @@ export const profileDetails = async (req: Request, res: Response) => {
 			if (err) throw err;
 			res.json(result);
 		});
-	console.log("zzzzzzzzz", res);
+	console.log("zzzzzzzczz", res);
 	res.send(res);
 };
 
