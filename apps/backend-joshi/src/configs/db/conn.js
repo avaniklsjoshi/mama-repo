@@ -14,7 +14,7 @@ module.exports = {
 		client.connect(function (err, db) {
 			// Verify we got a good "db" object
 			if (db) {
-				_db = db.db(config.dbName);
+				_db = db.db(config.dbPortfolioDB);
 				console.log("Successfully connected to MongoDB.");
 			}
 			return callback(err);

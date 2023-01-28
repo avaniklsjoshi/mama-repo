@@ -2,6 +2,7 @@ import express from "express";
 import helmet from "helmet";
 import bodyParser from "body-parser";
 import cors from "cors";
+import users from "../src/api/users.route";
 
 const morgan = require("morgan"); // import morgan from "morgan";
 
@@ -21,7 +22,10 @@ app.use(morgan("combined"));
 
 // get driver connection
 const dbo = require("./configs/db/conn");
+
+// register api's
 app.use("/", require("./api/routes/hello"));
+app.use("/api/v1/user", users);
 
 app.listen(port, () => {
 	// perform a database connection when server starts

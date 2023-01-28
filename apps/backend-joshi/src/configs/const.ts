@@ -1,6 +1,9 @@
 export const config = {
-	dbName: "portfolioDB",
-	// collectionName: "personalInfo",
-	collectionName: "records",
-	cluster: "Joshi"
+	cluster: "Joshi",
+
+	dbPortfolioDB: "portfolioDB",
+	collectionRecords: "records",
+
+	collectionProfile: "profile",
+	collectionLikeFeature: "likeFeature"
 };
