@@ -1,3 +1,4 @@
+import MapFilterReduce from "./mapFilterReduce";
 import Suspence from "./suspence";
 import Transition from "./transition";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
@@ -15,7 +16,8 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
   const components: INewComponent = {
     welcomePage: WelcomePage,
     suspence: Suspence,
-    transition: Transition
+    transition: Transition,
+    mapFilterReduce: MapFilterReduce
   };
   const { activeRouteComponentDetails } = props;
 
