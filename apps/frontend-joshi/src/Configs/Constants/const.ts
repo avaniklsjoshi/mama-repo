@@ -124,7 +124,7 @@ export const FEATURINGS = {
     menu: [
       { title: "Transition", componentName: "transition" },
       { title: "Suspence", componentName: "suspence" },
-      { title: "Map Filter Reduce", componentName: "mapFilterReduce" }
+      { title: "Map, Filter and Reduce", componentName: "mapFilterReduce" }
     ]
   },
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
