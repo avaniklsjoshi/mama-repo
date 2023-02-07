@@ -1,5 +1,5 @@
+import Promises from "./CallbacksPromisesAsyncAwait/promises";
 import MapFilterReduce from "./mapFilterReduce";
-import Promises from "./promises";
 import Suspence from "./suspence";
 import ThrottlingAndDebouncing from "./ThrottlingAndDebouncing/ThrottlingAndDebouncing";
 import Transition from "./transition";
