@@ -123,7 +123,7 @@ export const FEATURINGS = {
   [SUB_ROUTE_NAMES.REACT_AND_JS_LEARNINGS]: {
     menu: [
       { title: "Transition", componentName: "transition" },
-      { title: "Suspence", componentName: "suspence" },
+      { title: "Suspence with SWR hook", componentName: "suspence" },
       { title: "Map, Filter and Reduce", componentName: "mapFilterReduce" },
       { title: "Promises and Async Await", componentName: "promises" },
       {

@@ -1,6 +1,6 @@
 import Promises from "./CallbacksPromisesAsyncAwait/promises";
 import MapFilterReduce from "./mapFilterReduce";
-import Suspence from "./suspence";
+import Suspence from "./SuspenseAndSWR/suspence";
 import ThrottlingAndDebouncing from "./ThrottlingAndDebouncing/ThrottlingAndDebouncing";
 import Transition from "./transition";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
