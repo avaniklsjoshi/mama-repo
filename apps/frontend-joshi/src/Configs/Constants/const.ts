@@ -125,7 +125,7 @@ export const FEATURINGS = {
       { title: "Transition", componentName: "transition" },
       { title: "Suspence", componentName: "suspence" },
       { title: "Map, Filter and Reduce", componentName: "mapFilterReduce" },
-      { title: "Promises", componentName: "promises" },
+      { title: "Promises and Async Await", componentName: "promises" },
       {
         title: "Throttling and Debouncing",
         componentName: "throttlingAndDebouncing"
