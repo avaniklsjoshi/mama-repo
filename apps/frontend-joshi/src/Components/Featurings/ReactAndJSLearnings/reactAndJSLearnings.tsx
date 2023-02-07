@@ -1,6 +1,7 @@
 import MapFilterReduce from "./mapFilterReduce";
 import Promises from "./promises";
 import Suspence from "./suspence";
+import ThrottlingAndDebouncing from "./ThrottlingAndDebouncing/ThrottlingAndDebouncing";
 import Transition from "./transition";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
 import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
@@ -19,7 +20,8 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
     suspence: Suspence,
     transition: Transition,
     mapFilterReduce: MapFilterReduce,
-    promises: Promises
+    promises: Promises,
+    throttlingAndDebouncing: ThrottlingAndDebouncing
   };
   const { activeRouteComponentDetails } = props;
 

@@ -125,7 +125,11 @@ export const FEATURINGS = {
       { title: "Transition", componentName: "transition" },
       { title: "Suspence", componentName: "suspence" },
       { title: "Map, Filter and Reduce", componentName: "mapFilterReduce" },
-      { title: "Promises", componentName: "promises" }
+      { title: "Promises", componentName: "promises" },
+      {
+        title: "Throttling and Debouncing",
+        componentName: "throttlingAndDebouncing"
+      }
     ]
   },
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
