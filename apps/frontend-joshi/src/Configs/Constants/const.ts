@@ -131,7 +131,8 @@ export const FEATURINGS = {
         componentName: "throttlingAndDebouncing"
       },
       { title: "Design Patterns", componentName: "designPatterns" },
-      { title: "Random Ajax Call", componentName: "randomAjaxCall" }
+      { title: "Random Ajax Call", componentName: "randomAjaxCall" },
+      { title: "Closures", componentName: "closures" }
     ]
   },
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
