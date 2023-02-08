@@ -16,6 +16,7 @@
 - Readme - https://www.sitepoint.com/github-profile-readme
 - project Ideas - https://hackr.io/blog/react-projects
 - heroku deployment - https://github.com/marketplace/actions/deploy-to-heroku#license
+- typescript children - https://blog.logrocket.com/using-react-children-prop-with-typescript/
 
 eye pointer https://www.seanhalpin.design/
 chat bot
