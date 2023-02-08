@@ -1,7 +1,7 @@
 import ContainerAndPresentational from "./containerAndPresentational";
 import ContextAPI from "./contextAPI";
+import ContextAPIHook from "./contextAPIHook";
 import ContextAPIWithoutSettingDefaults from "./contextAPIWithoutSettingDefaults";
-
 import HOC from "./hoc";
 import Hooks from "./hooks";
 import RenderProps from "./renderProps";
@@ -33,6 +33,10 @@ export default function DesignPatterns() {
       <div>
         5.b Context API Without Setting Defaults:
         <ContextAPIWithoutSettingDefaults />
+      </div>
+      <div>
+        5.c Context API Hook:
+        <ContextAPIHook />
       </div>
       <div>6. Redux Model</div>
     </div>
