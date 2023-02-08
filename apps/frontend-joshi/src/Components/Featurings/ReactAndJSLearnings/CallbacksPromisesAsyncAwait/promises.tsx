@@ -2,19 +2,32 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Promises() {
-  const [data, setData] = useState(null);
+  const [asyncData, setAsyncData] = useState({ bio: "" });
+  const githubUsersAPI = "https://api.github.com/users";
+  const githubUserAPI = "https://api.github.com/users/avaniklsjoshi";
 
-  const githubAPI = "https://api.github.com/users/avaniklsjoshi";
-  const user = fetch(githubAPI); //prevents inversion of contron and callback hell,object user is immutable.
-  console.log(user);
-  user.then((data) => {
-    console.log(data);
-  });
+  //TODO: fix data filling
+  fetch(githubUsersAPI) //prevents inversion of contron and callback hell,object user is immutable.
+    .then((res) => {
+      console.log("first api", res.json());
+      return fetch(githubUserAPI); // dont forget to use return, if you want to access in next promise
+    })
+    .then((userAvani) => {
+      console.log("userAvani: second api", userAvani.json());
+      return userAvani;
+    })
+    .catch((err) => {
+      console.log("Error", err);
+      return err;
+    })
+    .finally(() => {
+      console.log("Finally all went well ");
+    });
 
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get(githubAPI);
-      setData(response.data);
+      const response = await axios.get(githubUserAPI);
+      setAsyncData(response.data);
     }
     fetchData();
   }, []);
@@ -24,7 +37,7 @@ export default function Promises() {
       {" "}
       Promise is an object that represents eventual completion or failure of the
       async operation, watch console:
-      {data ? <div>{data}</div> : <div>Loading...</div>}
+      {asyncData ? <div>{asyncData.bio}</div> : <div>Loading...</div>}
     </div>
   );
 }

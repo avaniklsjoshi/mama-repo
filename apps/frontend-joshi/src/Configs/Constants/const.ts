@@ -129,7 +129,8 @@ export const FEATURINGS = {
       {
         title: "Throttling and Debouncing",
         componentName: "throttlingAndDebouncing"
-      }
+      },
+      { title: "Design Patterns", componentName: "designPatterns" }
     ]
   },
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
