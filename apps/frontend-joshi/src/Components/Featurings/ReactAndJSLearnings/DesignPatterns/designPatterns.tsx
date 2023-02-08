@@ -11,7 +11,7 @@ export default function DesignPatterns() {
     <div>
       Design Patterns!!!!
       <div>
-        1. ContainerAndPresentational:
+        1. Container And Presentational:
         <ContainerAndPresentational />
       </div>
       <div>
