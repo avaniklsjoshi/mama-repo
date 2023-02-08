@@ -1,9 +1,10 @@
 import Promises from "./CallbacksPromisesAsyncAwait/promises";
 import DesignPatterns from "./DesignPatterns/designPatterns";
 import MapFilterReduce from "./mapFilterReduce";
+import RandomAjaxCall from "./randomAjaxCall";
+import ReactHooks from "./reactHooks";
 import Suspence from "./SuspenseAndSWR/suspence";
 import ThrottlingAndDebouncing from "./ThrottlingAndDebouncing/ThrottlingAndDebouncing";
-import Transition from "./transition";
 
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
 import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
@@ -20,11 +21,12 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
   const components: INewComponent = {
     welcomePage: WelcomePage,
     suspence: Suspence,
-    transition: Transition,
+    reactHooks: ReactHooks,
     mapFilterReduce: MapFilterReduce,
     promises: Promises,
     throttlingAndDebouncing: ThrottlingAndDebouncing,
-    designPatterns: DesignPatterns
+    designPatterns: DesignPatterns,
+    randomAjaxCall: RandomAjaxCall
   };
   const { activeRouteComponentDetails } = props;
 

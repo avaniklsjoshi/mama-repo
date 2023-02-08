@@ -122,7 +122,7 @@ export const FEATURINGS = {
   },
   [SUB_ROUTE_NAMES.REACT_AND_JS_LEARNINGS]: {
     menu: [
-      { title: "Transition", componentName: "transition" },
+      { title: "React Hooks", componentName: "reactHooks" },
       { title: "Suspence with SWR hook", componentName: "suspence" },
       { title: "Map, Filter and Reduce", componentName: "mapFilterReduce" },
       { title: "Promises and Async Await", componentName: "promises" },
@@ -130,7 +130,8 @@ export const FEATURINGS = {
         title: "Throttling and Debouncing",
         componentName: "throttlingAndDebouncing"
       },
-      { title: "Design Patterns", componentName: "designPatterns" }
+      { title: "Design Patterns", componentName: "designPatterns" },
+      { title: "Random Ajax Call", componentName: "randomAjaxCall" }
     ]
   },
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
