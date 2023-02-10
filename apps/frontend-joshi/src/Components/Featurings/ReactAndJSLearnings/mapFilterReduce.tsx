@@ -55,6 +55,17 @@ export default function MapFilterReduce() {
     console.log(out);
     return "check console";
   };
+  // for of loop, read key values from object.
+  // // `for...of` loop
+  // for (const [key, value] of Object.entries(animals)) {
+  //   console.log(`${key}: ${value}`);
+  // }
+
+  // // `forEach()` method
+
+  // Object.entries(animals).forEach(([key, value]) => {
+  //   console.log(`${key}: ${value}`);
+  // });
   return (
     <div>
       Array: {arr.map((x) => x + ", ")}
