@@ -63,7 +63,7 @@ export default function MapFilterReduce() {
 
   // // `forEach()` method
 
-  // Object.entries(animals).forEach(([key, value]) => {
+  // Object.entries(animals).forEach(([key, value]) => { v imp
   //   console.log(`${key}: ${value}`);
   // });
   return (
