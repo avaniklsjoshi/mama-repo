@@ -1,5 +1,6 @@
 import ChatBot from "./chatBot";
 import CodingArea from "./codingArea";
+import LongestPalindrome from "./Leetcode/longestPalindrome";
 import Meme from "./meme";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
 import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
@@ -17,6 +18,7 @@ export default function MiscellaneousCoolStuff(props: IMiscProps) {
   const components: INewComponent = {
     welcomePage: WelcomePage,
     chatBot: ChatBot,
+    longestPalindrome: LongestPalindrome,
     codingArea: CodingArea,
     meme: Meme
   };

@@ -139,6 +139,7 @@ export const FEATURINGS = {
     menu: [
       { title: "Coding Area", componentName: "codingArea" },
       { title: "Chat Bot", componentName: "chatBot" },
+      { title: "Longest Palindrome", componentName: "longestPalindrome" },
       { title: "Memes", componentName: "meme" }
     ]
   }
