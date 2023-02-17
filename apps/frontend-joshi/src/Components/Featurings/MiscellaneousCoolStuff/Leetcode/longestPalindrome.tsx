@@ -21,7 +21,7 @@ export default function LongestPalindrome() {
     const map: testObjectType = {};
     const maxVal = nums.length / 2;
     for (let i = 0; i < nums.length; i++) {
-      map[nums[i]] = map[nums[i]] + 1 || 1;
+      map[nums[i]] = map[nums[i]] + 1 || 1; //imp
       if (map[nums[i]] > maxVal) return nums[i];
     }
 
