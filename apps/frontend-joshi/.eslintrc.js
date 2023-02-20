@@ -4,7 +4,8 @@ module.exports = {
     commonjs: true, // CommonJS global variables and CommonJS scoping.Allows require, exports and module.
     es6: true, // Enable all ECMAScript 6 features except for modules.
     jest: true, // Jest global variables like `it` etc.
-    node: true // Defines things like process.env when generating through node
+    node: true, // Defines things like process.env when generating through node
+    "cypress/globals": true
   },
   extends: [
     "eslint:recommended",
@@ -15,7 +16,8 @@ module.exports = {
     "plugin:testing-library/react",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:json/recommended"
+    "plugin:json/recommended",
+    "plugin:cypress/recommended"
   ],
   overrides: [
     {
@@ -50,6 +52,7 @@ module.exports = {
     sourceType: "module" // Allows for the use of imports
   },
   plugins: [
+    "cypress",
     "import" // eslint-plugin-import plugin. https://www.npmjs.com/package/eslint-plugin-import
   ],
   root: true, // For configuration cascading.
@@ -73,7 +76,6 @@ module.exports = {
         ]
       }
     ],
-
     "jsx-quotes": ["warn", "prefer-double"],
     "no-console": "off",
     "no-duplicate-imports": "warn",
@@ -85,6 +87,12 @@ module.exports = {
     ],
     "no-unused-vars": "warn",
     "object-curly-spacing": ["off"],
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error",
     quotes: ["warn", "double"],
     "react/jsx-filename-extension": [
       "error",
@@ -113,7 +121,6 @@ module.exports = {
       }
     ]
   },
-
   settings: {
     react: {
       version: "detect" // Detect react version

@@ -4,6 +4,10 @@ Status: 🌶️ In Progress
 
 ---
 
+`npx cypress open`
+
+---
+
 `npm test -- --coverage`
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
@@ -64,7 +68,7 @@ Status: 🌶️ In Progress
 - design home page- about me, timeline, language and tools, future goals
 - feature sub route functionality, design subroutes page, with left menu
 - typescript, i18n, adjust theme, media queries
-- tests, storybook
+- tests, storybook, cypress
 - like card functionality
 
 ---
