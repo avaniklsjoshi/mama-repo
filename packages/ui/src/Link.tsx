@@ -13,7 +13,7 @@ export const Link = (props: LinkProps) => {
 	}
 
 	return (
-		<a href={href} {...rest}>
+		<a href={href} {...rest} style={{ cursor: "pointer" }}>
 			{children}
 		</a>
 	);
