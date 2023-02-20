@@ -1,43 +1,44 @@
 @import "../../CommonStyles/variables.scss";
 
-.sub-route-container{
-    display: flex;
-    flex: 1;
+.sub-route-container {
+  display: flex;
+  flex: 1;
 
-    .left-bar{
-        justify-self: flex-start;
-        padding: 8px;
-    }
-    .right-bar{
-        justify-self: flex-start;
-        padding: 8px;
-        width: 100%;
-    }
+  .left-bar {
+    justify-self: flex-start;
+    padding: 8px;
+  }
+  .right-bar {
+    justify-self: flex-start;
+    padding: 8px;
+    width: 100%;
+    height: calc(100vh - 304px);
+    overflow-y: auto;
+  }
 }
 //-------- Left Menu Start ----------
-.left-drawer-menu-icon{
-    padding: 0 !important;
-    margin: 0 !important;
+.left-drawer-menu-icon {
+  padding: 0 !important;
+  margin: 0 !important;
 }
-.left-menu-box{
-    text-align: initial;
-    height: 100%;
-    svg{
-        fill:gray;
+.left-menu-box {
+  text-align: initial;
+  height: 100%;
+  svg {
+    fill: gray;
+  }
+  .left-drawer {
+    div {
+      background: initial;
+      width: 100%;
+      position: relative;
+      height: 100%;
+      color: inherit;
+      padding-left: 0;
     }
-    .left-drawer{
-        div{
-            background: initial;
-            width: 100%;
-            position: relative;
-            height: 100%;
-            color: inherit;
-            padding-left: 0;
-        }
-
-    }
+  }
 }
-.menu-item{
-    min-width: max-content;
+.menu-item {
+  min-width: max-content;
 }
 //-------- Left Menu End ----------
