@@ -13,9 +13,6 @@ export default function RandomAjaxCall() {
   );
 
   useEffect(() => {
-    document.title = t("docTitleNameFeatures");
-  });
-  useEffect(() => {
     dispatch(fetchPostsRequest());
   }, [dispatch]);
 
