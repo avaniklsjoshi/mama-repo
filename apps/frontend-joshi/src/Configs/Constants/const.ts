@@ -132,6 +132,8 @@ export const FEATURINGS = {
       },
       { title: "Design Patterns", componentName: "designPatterns" },
       { title: "Random Ajax Call", componentName: "randomAjaxCall" },
+      { title: "JS Data Structure", componentName: "jSDataStructure" },
+
       { title: "Closures", componentName: "closures" }
     ]
   },

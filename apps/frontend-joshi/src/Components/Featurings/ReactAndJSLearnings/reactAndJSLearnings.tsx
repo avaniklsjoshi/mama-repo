@@ -1,6 +1,7 @@
 import Promises from "./CallbacksPromisesAsyncAwait/promises";
 import Closures from "./closures";
 import DesignPatterns from "./DesignPatterns/designPatterns";
+import JSDataStructure from "./JSDataStructure/jSDataStructure";
 import MapFilterReduce from "./mapFilterReduce";
 import RandomAjaxCall from "./randomAjaxCall";
 import ReactHooks from "./ReactHooks/reactHooks";
@@ -27,6 +28,7 @@ export default function ReactAndJSLearnings(props: IMiscProps) {
     throttlingAndDebouncing: ThrottlingAndDebouncing,
     designPatterns: DesignPatterns,
     randomAjaxCall: RandomAjaxCall,
+    jSDataStructure: JSDataStructure,
     closures: Closures
   };
   const { activeRouteComponentDetails } = props;

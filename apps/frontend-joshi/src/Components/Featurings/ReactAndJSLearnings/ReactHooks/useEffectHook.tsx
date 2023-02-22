@@ -24,7 +24,7 @@ export default function UseEffectHook() {
       window.removeEventListener("resize", handler);
       document.title = docTitleName["features"];
     };
-  }, []);
+  }, [docTitleName]);
 
   return <>Check doc Title, </>;
 }

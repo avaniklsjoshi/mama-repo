@@ -73,8 +73,8 @@ export default function Closures() {
   countPlus.decrementCounter();
   //----- garbage collected by browser -----------
   function a() {
-    const x = 0,
-      z = 9; //z is garbage collected, as it is not used by function b
+    const x = 0;
+    // z = 9; //z is garbage collected, as it is not used by function b
     return function b() {
       console.log("x", x);
     };
