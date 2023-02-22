@@ -1,7 +1,7 @@
 import "./common.scss";
 import { Tooltip } from "@mui/material";
 import { useState } from "react";
-import { Share } from "../../Assets/SVG/Share";
+import { ShareIcon } from "../../Assets/SVG/Share";
 
 export default function BackLink() {
   const [open, setOpen] = useState(false);
@@ -25,10 +25,12 @@ export default function BackLink() {
       disableHoverListener
       disableTouchListener
       title="🎉 Link Copied!"
+      onClick={handleShare}
+      className="share-button"
     >
-      <button onClick={handleShare} className="share-button">
-        <Share />
-      </button>
+      <>
+        <ShareIcon />
+      </>
     </Tooltip>
   );
 }
