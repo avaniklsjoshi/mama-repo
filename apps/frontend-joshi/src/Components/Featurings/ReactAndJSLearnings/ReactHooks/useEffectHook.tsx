@@ -1,4 +1,4 @@
-//TODO: also check  useLayoutEffect and useMutationEffect
+//TODO: also check useLayoutEffect and useMutationEffect
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
