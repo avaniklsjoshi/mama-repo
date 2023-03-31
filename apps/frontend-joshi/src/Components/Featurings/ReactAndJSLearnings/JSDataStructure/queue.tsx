@@ -77,7 +77,7 @@ console.log("queOptimised size:", queOptimised.size());
 console.log("queOptimised top element:", queOptimised.peek());
 console.log("queOptimised elements:", queOptimised.print());
 queOptimised.dequeue();
-console.log("queOptimised elements after pop:", queOptimised.print());
+console.log("queOptimised elements after delete:", queOptimised.print());
 
 export default function Queue() {
   return <div>Queue</div>;
