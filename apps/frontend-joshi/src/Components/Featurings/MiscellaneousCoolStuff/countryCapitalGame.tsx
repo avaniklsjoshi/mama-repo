@@ -42,7 +42,7 @@ export default function CountryCapitalGame() {
   const matcher = (newButtonId: string) => {
     // If country clicked first, If capital clicked first
     if (
-      data[newButtonId as keyof typeof data] == clickedText[0] ||
+      data[newButtonId as keyof typeof data] === clickedText[0] ||
       data[clickedText[0] as keyof typeof data] === newButtonId
     )
       return true;
@@ -97,21 +97,18 @@ export default function CountryCapitalGame() {
 
   return (
     <div>
-      Your game component
-      <div>
-        {buttonArray.length == 0 ? (
-          <div>
-            Congratulations
-            <button onClick={reloadBtnList}>Reload</button>
-          </div>
-        ) : (
-          buttonArray.map((button) => (
-            <button key={button} id={button} onClick={clickHandler}>
-              {button}
-            </button>
-          ))
-        )}
-      </div>
+      {buttonArray.length == 0 ? (
+        <div>
+          Congratulations
+          <button onClick={reloadBtnList}>Reload</button>
+        </div>
+      ) : (
+        buttonArray.map((button) => (
+          <button key={button} id={button} onClick={clickHandler}>
+            {button}
+          </button>
+        ))
+      )}
     </div>
   );
 }
