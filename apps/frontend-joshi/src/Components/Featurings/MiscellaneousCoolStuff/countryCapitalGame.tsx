@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 type TCountryData = string[];
-const data = { Germany: "Berlin", Azerbaijan: "Baku" };
+const data = { India: "Delhi", Germany: "Berlin" };
+
 export default function CountryCapitalGame() {
   function shuffle(array: TCountryData) {
     let currentIndex = array.length,
@@ -51,14 +52,13 @@ export default function CountryCapitalGame() {
   const clickHandler = (e: React.SyntheticEvent) => {
     const newButtonId = (e.target as HTMLInputElement).id;
     const button = document.getElementById(newButtonId);
-    // if (clickedText.length >= 2) {
-    // 	clickedText.forEach((index) => {
-    // 		document.getElementById(index).style.backgroundColor = "transparent";
-    // 	});
-    // 	setClickedText([]);
-    // 	document.getElementById(newButtonId).style.backgroundColor = "blue";
-    // }
-    if (clickedText.length === 0 && button) {
+    if (clickedText.length == 2) {
+      clickedText.forEach((val) => {
+        document.getElementById(val)!.style.backgroundColor = "white";
+      });
+      button!.style.backgroundColor = "blue";
+      setClickedText([newButtonId]);
+    } else if (clickedText.length === 0 && button) {
       button.style.backgroundColor = "blue";
       setClickedText([newButtonId]);
     } else {
@@ -81,6 +81,8 @@ export default function CountryCapitalGame() {
         // set red color
         document.getElementById(clickedText[0])!.style.backgroundColor = "red";
         document.getElementById(newButtonId)!.style.backgroundColor = "red";
+
+        setClickedText([...clickedText, newButtonId]);
       }
     }
   };
