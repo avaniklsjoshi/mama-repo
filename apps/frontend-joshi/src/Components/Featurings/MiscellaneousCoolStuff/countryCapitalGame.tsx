@@ -49,55 +49,68 @@ export default function CountryCapitalGame() {
 
     return false;
   };
+
+  //Checks corresponding capital with country
+  const setColor = (buttonId: string, color: string) => {
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    document.getElementById(buttonId)!.style.backgroundColor = color;
+  };
+
   const clickHandler = (e: React.SyntheticEvent) => {
     const newButtonId = (e.target as HTMLInputElement).id;
     const button = document.getElementById(newButtonId);
     if (clickedText.length == 2) {
       clickedText.forEach((val) => {
-        document.getElementById(val)!.style.backgroundColor = "white";
+        setColor(val, "white");
       });
-      button!.style.backgroundColor = "blue";
+      setColor(newButtonId, "blue");
       setClickedText([newButtonId]);
     } else if (clickedText.length === 0 && button) {
-      button.style.backgroundColor = "blue";
+      setColor(newButtonId, "blue");
       setClickedText([newButtonId]);
     } else {
       // one button is already clicked
-      //match logic from clicked with buttonArray
+      // match logic from clicked with buttonArray
       if (matcher(newButtonId)) {
         // set blue color
-        document.getElementById(clickedText[0])!.style.backgroundColor = "blue";
-        document.getElementById(newButtonId)!.style.backgroundColor = "blue";
+        setColor(clickedText[0], "blue");
+        setColor(newButtonId, "blue");
 
         // remove both capital and country
         setButtonArray(
-          buttonArray.filter((a) => {
-            console.log(a, newButtonId, clickedText[0]);
-            return a !== newButtonId && a !== clickedText[0];
-          })
+          buttonArray.filter((a) => a !== newButtonId && a !== clickedText[0])
         );
         setClickedText([]);
       } else {
         // set red color
-        document.getElementById(clickedText[0])!.style.backgroundColor = "red";
-        document.getElementById(newButtonId)!.style.backgroundColor = "red";
-
+        setColor(clickedText[0], "red");
+        setColor(newButtonId, "red");
         setClickedText([...clickedText, newButtonId]);
       }
     }
   };
-  console.log(clickedText, buttonArray);
+
+  const reloadBtnList = () => {
+    setClickedText([]);
+    setButtonArray(generateButtonArray());
+  };
+
   return (
     <div>
       Your game component
       <div>
-        {buttonArray.length == 0
-          ? "Congratulations"
-          : buttonArray.map((button) => (
-              <button key={button} id={button} onClick={clickHandler}>
-                {button}
-              </button>
-            ))}
+        {buttonArray.length == 0 ? (
+          <div>
+            Congratulations
+            <button onClick={reloadBtnList}>Reload</button>
+          </div>
+        ) : (
+          buttonArray.map((button) => (
+            <button key={button} id={button} onClick={clickHandler}>
+              {button}
+            </button>
+          ))
+        )}
       </div>
     </div>
   );
