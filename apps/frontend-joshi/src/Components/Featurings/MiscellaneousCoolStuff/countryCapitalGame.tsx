@@ -39,7 +39,12 @@ export default function CountryCapitalGame() {
 
   //Checks corresponding capital with country
   const matcher = (newButtonId: string) => {
-    if (data[newButtonId as keyof typeof data] == clickedText[0]) return true;
+    // If country clicked first, If capital clicked first
+    if (
+      data[newButtonId as keyof typeof data] == clickedText[0] ||
+      data[clickedText[0] as keyof typeof data] === newButtonId
+    )
+      return true;
 
     return false;
   };
@@ -66,14 +71,17 @@ export default function CountryCapitalGame() {
 
         // remove both capital and country
         setButtonArray(
-          buttonArray.filter((a) => a !== newButtonId || a !== clickedText[0])
+          buttonArray.filter((a) => {
+            console.log(a, newButtonId, clickedText[0]);
+            return a !== newButtonId && a !== clickedText[0];
+          })
         );
+        setClickedText([]);
       } else {
         // set red color
         document.getElementById(clickedText[0])!.style.backgroundColor = "red";
         document.getElementById(newButtonId)!.style.backgroundColor = "red";
       }
-      setClickedText([...clickedText, newButtonId]);
     }
   };
   console.log(clickedText, buttonArray);
