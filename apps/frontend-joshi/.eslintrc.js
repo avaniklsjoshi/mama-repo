@@ -40,6 +40,12 @@ module.exports = {
         "no-unused-vars": "off",
         "@typescript-eslint/no-explicit-any": "off"
       }
+    },
+    {
+      files: ["**/*.stories.*"],
+      rules: {
+        "import/no-anonymous-default-export": "off"
+      }
     }
   ],
   parser: "@babel/eslint-parser", // Uses babel-eslint transforms.
@@ -49,6 +55,7 @@ module.exports = {
     },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     requireConfigFile: false,
+    parser: "@typescript-eslint/parser",
     sourceType: "module" // Allows for the use of imports
   },
   plugins: [
