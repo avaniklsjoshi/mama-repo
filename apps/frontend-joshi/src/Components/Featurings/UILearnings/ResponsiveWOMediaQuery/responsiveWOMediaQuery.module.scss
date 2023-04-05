@@ -1,0 +1,50 @@
+#container {
+  background: #acd8e4;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+#container > * {
+  flex: 1 1 900px;
+}
+.image-container {
+  min-height: 300px;
+  img {
+    background: url("../../../../Assets/Images/catProfile.jpeg") center center
+      no-repeat;
+    background-size: 300px;
+  }
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.content-container {
+  padding: 16px;
+  color: #01010b;
+}
+.content-container > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+}
+.content-container p {
+  margin: 0;
+}
+.tags-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tags-container div {
+  display: flex;
+  min-width: 72px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  color: white;
+  background: #e82263;
+  margin: 5px;
+  border-radius: 6px;
+}
