@@ -1,6 +1,7 @@
 import BubbleEffect from "./bubbleEffect";
 import DesignerTitle from "./designerTitle";
 import Parallax from "./parallax";
+import ResponsiveWOMediaQuery from "./ResponsiveWOMediaQuery/responsiveWOMediaQuery";
 import { useActiveComponent } from "../../../Utils/Hooks/useActiveComponent";
 import { useWelcomeMsg } from "../../../Utils/Hooks/useWelcomeMsg";
 import { IComponentDetails } from "../layout";
@@ -17,7 +18,8 @@ export default function UILearnings(props: IMiscProps) {
     welcomePage: WelcomePage,
     parallax: Parallax,
     bubbleEffect: BubbleEffect,
-    designerTitle: DesignerTitle
+    designerTitle: DesignerTitle,
+    responsiveWOMediaQuery: ResponsiveWOMediaQuery
   };
   const { activeRouteComponentDetails } = props;
 

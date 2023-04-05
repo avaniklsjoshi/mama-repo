@@ -115,6 +115,10 @@ export enum SUB_ROUTE_NAMES {
 export const FEATURINGS = {
   [SUB_ROUTE_NAMES.UI_LEARNINGS]: {
     menu: [
+      {
+        title: "Responsive wo Media query",
+        componentName: "responsiveWOMediaQuery"
+      },
       { title: "Parallax Effect", componentName: "parallax" },
       { title: "Bubble Effect", componentName: "bubbleEffect" },
       { title: "Designer Title", componentName: "designerTitle" }
