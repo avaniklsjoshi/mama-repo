@@ -144,6 +144,11 @@ export const FEATURINGS = {
   [SUB_ROUTE_NAMES.MISC_LEARNINGS]: {
     menu: [
       { title: "Country Capital Game", componentName: "countryCapitalGame" },
+      {
+        title: "Klarna Coding Challenge",
+        componentName: "klarnaCodingChallenge"
+      },
+
       { title: "Coding Area", componentName: "codingArea" },
       { title: "Chat Bot", componentName: "chatBot" },
       { title: "Longest Palindrome", componentName: "longestPalindrome" },

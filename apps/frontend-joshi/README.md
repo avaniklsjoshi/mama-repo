@@ -12,6 +12,8 @@ Status: 🌶️ In Progress
 
 <h2>:bomb:  Hold tight, features are going to be added soon..  :crossed_fingers:</h2>
 
+html media query
+
 - api fail UI, centralized loader, 118n backend
 - launch app may be with docker..
 - conventional commit and versioning
