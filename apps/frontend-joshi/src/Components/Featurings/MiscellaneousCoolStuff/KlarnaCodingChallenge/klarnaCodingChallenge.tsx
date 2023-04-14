@@ -82,6 +82,7 @@ export const getBalanceByCategoryInPeriod = (
       categoriesObj[transaction.category] == 0
     ) {
       if (transaction.time >= startDate && transaction.time <= endDate) {
+        //crop only date, remove time from both strings
         if (!categoriesObj[transaction.category])
           categoriesObj[transaction.category] = 0;
         categoriesObj[transaction.category] += transaction.amount;
