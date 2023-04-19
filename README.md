@@ -98,6 +98,7 @@ Remove node_modules from each part of app
 - `nvm install 18`
 - `nvm ls`
 - `nvm use 18`
+- build ui folder first, then start children apps
 
 ---
 
