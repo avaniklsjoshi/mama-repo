@@ -27,7 +27,7 @@ html media query
 - XSS, dOM API manupulation, XHR Request, HTTP Headers
 - accessibility
 - scroll loader at top
-- tell me a joke section, Meme Generator\*
+- tell me a joke section, Meme Generator\* https://icanhazdadjoke.com/
 - Things to notice in the App section
 - Real-Time Chat, Music Player\*
 - Personal Blog\*
